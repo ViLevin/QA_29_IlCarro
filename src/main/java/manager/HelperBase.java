@@ -1,6 +1,8 @@
 package manager;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class HelperBase {
     WebDriver wd;
@@ -9,5 +11,16 @@ public class HelperBase {
         this.wd = wd;
     }
 
+    public void type(By locator, String text) {
+        WebElement = wd.findElement(locator);
+        element.click();
+        element.clear();
+        if (text != null) {
+            element.sendKeys(text);
+        }
+    }
+
+    private void click(By xpath) {
+    }
 
 }
