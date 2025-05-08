@@ -11,16 +11,18 @@ public class HelperBase {
         this.wd = wd;
     }
 
+
+    public void click(By locator) {
+        wd.findElement(locator).click();
+    }
+
+
     public void type(By locator, String text) {
-        WebElement = wd.findElement(locator);
+        WebElement element = wd.findElement(locator);
         element.click();
         element.clear();
         if (text != null) {
             element.sendKeys(text);
         }
     }
-
-    private void click(By xpath) {
-    }
-
 }

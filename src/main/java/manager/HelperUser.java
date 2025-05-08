@@ -14,10 +14,21 @@ public class HelperUser extends HelperBase{
     }
 
 
-    public void fillingLoginForm(String email, String rassword) {
+    public void fillLoginForm(String email, String password) {
         type(By.id("email"), email);
-        type(By.)
+        type(By.id("password"),password);
+    }
 
+    public void submitLogin() {
+        click(By.xpath("//*[@type='submit']"));
+    }
+
+    public String getMessage() {
+//        WebElement element = wd.findElement(By.cssSelector(".dialog-container>h2"));
+//        String text = element.getText();
+//        return text;
+        return wd.findElement(By.cssSelector(".dialog-container>h2")).getText();
 
     }
+
 }
