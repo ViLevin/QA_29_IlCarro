@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.List;
+
 public class HelperBase {
     WebDriver wd;
 
@@ -25,4 +27,19 @@ public class HelperBase {
             element.sendKeys(text);
         }
     }
+
+    public void clickOkButton() {
+        click(By.xpath("//*[button = 'Ok']"));
+    }
+
+
+    public boolean isElementPresent(By locator) {
+        List<WebElement> list = wd.findElements(locator);
+        return list.size()>0;
+    }
+
+//    public boolean isErrorClass(By locator){
+//
+//    }
+
 }
