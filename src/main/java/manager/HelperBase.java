@@ -28,9 +28,6 @@ public class HelperBase {
         }
     }
 
-    public void clickOkButton() {
-        click(By.xpath("//*[button = 'Ok']"));
-    }
 
 
     public boolean isElementPresent(By locator) {
