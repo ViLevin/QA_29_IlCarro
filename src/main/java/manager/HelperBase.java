@@ -38,8 +38,12 @@ public class HelperBase {
         return list.size()>0;
     }
 
-//    public boolean isErrorClass(By locator){
-//
-//    }
+public void pause(int time){
+    try {
+        Thread.sleep(time);
+    } catch (InterruptedException e) {
+        throw new RuntimeException(e);
+    }
+}
 
 }
