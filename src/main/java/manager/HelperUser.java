@@ -26,18 +26,8 @@ public class HelperUser extends HelperBase {
         type(By.id("password"), user.getPassword());
     }
 
-    public void submit() {
-        click(By.xpath("//*[@type='submit']"));
-    }
 
-    public String getMessage() {
-//        WebElement element = wd.findElement(By.cssSelector(".dialog-container>h2"));
-//        String text = element.getText();
-//        return text;
-        pause(2000);
-        return wd.findElement(By.cssSelector(".dialog-container>h2")).getText();
 
-    }
 
 
     public boolean isLogged() {
@@ -62,7 +52,7 @@ public class HelperUser extends HelperBase {
 
 
     public void logout() {
-        click(By.xpath("//a[contains(@href, '/logout')]"));
+        click(By.xpath("//*[text()=' Logout ']"));
     }
 
     public boolean isYallaBtnNotActive() {
@@ -97,17 +87,19 @@ public class HelperUser extends HelperBase {
 //        js.executeScript("document.querySelector('#terms-of-use').click()");
 
     public void checkPolicyXY() {
-        WebElement label = wd.findElement(By.cssSelector("label[for='terms-of-use']"));
-        Rectangle rec = label.getRect();
-        int w = rec.getWidth();
+        if(!wd.findElement(By.id("terms-of-use")).isSelected()) {
+            WebElement label = wd.findElement(By.cssSelector("label[for='terms-of-use']"));
+            Rectangle rec = label.getRect();
+            int w = rec.getWidth();
 
 
-        int xOffSet = -w/2;
+            int xOffSet = -w / 2;
 
-        Actions actions = new Actions(wd);
-        actions.moveToElement(label, xOffSet, 0);
-
+            Actions actions = new Actions(wd);
+            actions.moveToElement(label, xOffSet, 0).click().release().perform();
+        }
     }
+
 
     public void login(User user) {
         openLoginForm();
