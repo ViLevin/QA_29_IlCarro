@@ -26,16 +26,16 @@ public class AddNewCarTests extends TestBase {
         if (!app.getHelperUser().isLogged()) {
             app.getHelperUser().login(new User().setEmail("test12@gmail.com").setPassword("vilevinQa!1234"));
 //            app.getHelperCar().submit();
-            System.out.println("Before sleep");
-            app.getHelperUser().pause(3000);
-            System.out.println("After sleep");
-            app.getHelperCar().submit();
+//            System.out.println("Before sleep");
+//            app.getHelperUser().pause(3000);
+//            System.out.println("After sleep");
+//            app.getHelperCar().submit();
 //            WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
 //            WebElement okButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[normalize-space(text())='Ok']")));
 //            if (okButton != null) {
 //                okButton.click();
 //            }
-            app.getHelperUser().clickOkButton();
+//            app.getHelperUser().clickOkButton();
         }
     }
 
