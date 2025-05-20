@@ -11,8 +11,8 @@ public class HelperCar extends HelperBase {
     }
 
     public void openCarForm() {
-        pause(500);
-        click(By.xpath("//a[@href='/let-car-work']"));
+        pause(5000);
+        click(By.xpath("//a[@href='let-car-work']"));
     }
 
     public void fillCarForm(Car car) {
@@ -48,4 +48,11 @@ public class HelperCar extends HelperBase {
     }
 
 
+    public void returnToHomePage() {
+        click(By.xpath("//button[text() = 'search car']"));
+    }
+
+    public void attachPhoto(String link) {
+        wd.findElement(By.id("photos")).sendKeys(link);
+    }
 }

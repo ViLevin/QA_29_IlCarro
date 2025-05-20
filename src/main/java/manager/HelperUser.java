@@ -26,10 +26,6 @@ public class HelperUser extends HelperBase {
         type(By.id("password"), user.getPassword());
     }
 
-
-
-
-
     public boolean isLogged() {
         return isElementPresent(By.xpath("//a[contains(@href, '/logout')]"));
     }
@@ -46,8 +42,11 @@ public class HelperUser extends HelperBase {
     }
 
     public void clickOkButton() {
-        if (isElementPresent(By.xpath("//button[text() = 'Ok']")))
-            click(By.xpath("//*[button = 'Ok']"));
+//        if (isElementPresent(By.xpath("//button[text() = 'Ok']")))
+//            click(By.xpath("//*[button = 'Ok']"));
+        if (isElementPresent(By.xpath("//button[text() = 'Ok']"))) {
+            click(By.xpath("//button[text() = 'Ok']"));
+        }
     }
 
 
@@ -87,7 +86,7 @@ public class HelperUser extends HelperBase {
 //        js.executeScript("document.querySelector('#terms-of-use').click()");
 
     public void checkPolicyXY() {
-        if(!wd.findElement(By.id("terms-of-use")).isSelected()) {
+        if (!wd.findElement(By.id("terms-of-use")).isSelected()) {
             WebElement label = wd.findElement(By.cssSelector("label[for='terms-of-use']"));
             Rectangle rec = label.getRect();
             int w = rec.getWidth();
@@ -104,7 +103,9 @@ public class HelperUser extends HelperBase {
     public void login(User user) {
         openLoginForm();
         fillLoginForm(user);
+        submit();
 
     }
+
 }
 
