@@ -2,8 +2,14 @@ package manager;
 
 import models.Car;
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class HelperCar extends HelperBase {
     public HelperCar(WebDriver wd) {
@@ -16,7 +22,12 @@ public class HelperCar extends HelperBase {
     }
 
     public void fillCarForm(Car car) {
-        typeLocation(car.getLocation());
+
+//        typeLocation(car.getLocation());
+        if (car.getLocation() != null && !car.getLocation().trim().isEmpty()) {
+            typeLocation(car.getLocation());
+        }
+
         type(By.id("make"), car.getManufactura());
         type(By.id("model"), car.getModel());
         type(By.id("year"), car.getYear());
@@ -44,12 +55,21 @@ public class HelperCar extends HelperBase {
 
     private void typeLocation(String location) {
         type(By.id("pickUpPlace"), location);
-        click(By.cssSelector("div.pac-item"));
+//        click(By.cssSelector("div.pac-item"));
+        if (location != null && !location.trim().isEmpty()) {
+            try {
+                WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+                WebElement suggestion = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.pac-item")));
+                suggestion.click();
+            } catch (TimeoutException e) {
+                System.out.println("⚠ No autocomplete suggestion appeared.");
+            }
+        }
     }
 
 
     public void returnToHomePage() {
-        click(By.xpath("//button[text() = 'search car']"));
+        click(By.xpath("//button[text()='Search cars']"));
     }
 
     public void attachPhoto(String link) {

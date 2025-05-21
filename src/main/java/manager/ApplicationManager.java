@@ -32,4 +32,8 @@ public class ApplicationManager {
     public HelperCar getHelperCar() {
         return helperCar;
     }
+
+    public WebDriver getDriver() {
+        return wd;
+    }
 }

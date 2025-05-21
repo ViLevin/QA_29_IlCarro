@@ -104,6 +104,7 @@ public class HelperUser extends HelperBase {
         openLoginForm();
         fillLoginForm(user);
         submit();
+        clickOkButton();
 
     }
 
