@@ -19,6 +19,7 @@ public class LoginTests extends TestBase {
 
     @Test
     public void loginSuccessObject() {
+        logger.info("Start");
         User user = new User().setEmail("test12@gmail.com").setPassword("vilevinQa!1234");
 
         app.getHelperUser().openLoginForm();
@@ -26,28 +27,29 @@ public class LoginTests extends TestBase {
         app.getHelperUser().submit();
         //Assert if element with text "Logged in success" is present
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
-
-
+        logger.info("End");
     }
 
     @Test
     public void loginSuccess() {
+        logger.info("Start");
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("test12@gmail.com", "vilevinQa!1234");
         app.getHelperUser().submit();
         //Assert if element with text "Logged in success" is present
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
-
-
+        logger.info("End");
     }
 
     @Test
     public void loginSuccessModel() {
+        logger.info("Start");
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("test12@gmail.com", "vilevinQa!1234");
         app.getHelperUser().submit();
         //Assert if element with text "Logged in success" is present
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
+        logger.info("End");
     }
 
     @Test

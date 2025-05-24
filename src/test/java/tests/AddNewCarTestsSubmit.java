@@ -24,6 +24,7 @@ public class AddNewCarTestsSubmit extends TestBase {
 
     @Test
     public void addNewCarSuccessAll() {
+        logger.info("Start");
         int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
 
         Car car = Car.builder()
@@ -46,12 +47,13 @@ public class AddNewCarTestsSubmit extends TestBase {
         app.getHelperCar().submit();
         Assert.assertTrue(app.getHelperUser().getMessage().contains("added successful"));
         Assert.assertEquals(app.getHelperUser().getMessage(), car.getManufactura() + " " + car.getModel() + " " + "added successful");
-
+        logger.info("End");
     }
 
 
     @Test
     public void addNewCarSuccessRequired() {
+        logger.info("Start");
         int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
 
         Car car = Car.builder()
@@ -72,7 +74,7 @@ public class AddNewCarTestsSubmit extends TestBase {
         app.getHelperCar().submit();
         Assert.assertTrue(app.getHelperUser().getMessage().contains("added successful"));
         Assert.assertEquals(app.getHelperUser().getMessage(), car.getManufactura() + " " + car.getModel() + " " + "added successful");
-
+        logger.info("End");
     }
 
 
@@ -82,6 +84,7 @@ public class AddNewCarTestsSubmit extends TestBase {
 
     @Test
     public void addNewCarWrongPrice() {
+        logger.info("Start");
         int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
 
         Car car = Car.builder()
@@ -105,7 +108,7 @@ public class AddNewCarTestsSubmit extends TestBase {
 //        Assert.assertFalse(app.getHelperUser().isYallaBtnNotActive());
         Assert.assertTrue(app.getHelperUser().getMessage().contains("added successful"));
         Assert.assertEquals(app.getHelperUser().getMessage(), car.getManufactura() + " " + car.getModel() + " " + "added successful");
-
+        logger.info("End");
     }
 
 

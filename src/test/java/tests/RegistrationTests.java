@@ -22,6 +22,7 @@ public class RegistrationTests extends TestBase {
 
     @Test
     public void registrationSuccess() {
+        logger.info("Start");
         int i = new Random().nextInt(1000) + 1000;
         System.out.println(i);
 //        ==========================================
@@ -33,7 +34,7 @@ public class RegistrationTests extends TestBase {
         User user = new User()
                 .setFirstName("Lisa")
                 .setLastName("Snow")
-                .setEmail("snow" + z + "@gmail.com")
+                .setEmail("snow" + z+z + "@gmail.com")
                 .setPassword("Ssnow12345$");
 
         app.getHelperUser().openRegistrationForm();
@@ -43,11 +44,12 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().submit();
 
         Assert.assertEquals(app.getHelperUser().getMessage(), "You are logged in success");
-
+        logger.info("End");
     }
 
     @Test
     public void registrationEmptyName() {
+        logger.info("Start");
         User user = new User()
                 .setFirstName("")
                 .setLastName("Slow")
@@ -60,10 +62,12 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getErrorText(), "Name is required");
         Assert.assertTrue(app.getHelperUser().isYallaBtnNotActive());
+        logger.info("End");
     }
 
     @Test
     public void registrationEmptyLastname() {
+        logger.info("Start");
         User user = new User()
                 .setFirstName("Lisa")
                 .setLastName("")
@@ -77,11 +81,13 @@ public class RegistrationTests extends TestBase {
 
         Assert.assertEquals(app.getHelperUser().getErrorText(), "Last name is required");
         Assert.assertTrue(app.getHelperUser().isYallaBtnNotActive());
+        logger.info("End");
     }
 
 
-    @Test //(enabled = false)
+    @Test
     public void registrationEmptyEmail() {
+        logger.info("Start");
         User user = new User()
                 .setFirstName("Lisa")
                 .setLastName("Slow")
@@ -95,10 +101,12 @@ public class RegistrationTests extends TestBase {
 
         Assert.assertEquals(app.getHelperUser().getErrorText(), "Email is required");
         app.getHelperUser().isYallaBtnNotActive();
+        logger.info("End");
     }
 
-    @Test//(enabled = false)
+    @Test
     public void registrationEmptyPassword() {
+        logger.info("Start");
         User user = new User()
                 .setFirstName("Lisa")
                 .setLastName("Slow")
@@ -111,10 +119,12 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getErrorText(), "Password is required");
         app.getHelperUser().isYallaBtnNotActive();
+        logger.info("End");
     }
 
     @Test//(enabled = false)
     public void registrationWrongEmail() {
+        logger.info("Start");
         User user = new User()
                 .setFirstName("Lisa")
                 .setLastName("Slow")
@@ -128,10 +138,12 @@ public class RegistrationTests extends TestBase {
 
         Assert.assertTrue(app.getHelperUser().getErrorText().contains("Wrong email format"));
         Assert.assertTrue(app.getHelperUser().isYallaBtnNotActive());
+        logger.info("End");
     }
 
-    @Test//(enabled = false)
+    @Test
     public void registrationWrongPassword() {
+        logger.info("Start");
         User user = new User()
                 .setFirstName("Lisa")
                 .setLastName("Slow")
@@ -145,12 +157,13 @@ public class RegistrationTests extends TestBase {
 
         Assert.assertEquals(app.getHelperUser().getErrorText(), "Password must contain 1 uppercase letter, 1 lowercase letter, 1 number and one special symbol of [@$#^&*!]");
         Assert.assertTrue(app.getHelperUser().isYallaBtnNotActive());
-
+        logger.info("End");
     }
 
 
-    @Test//(enabled = false)
+    @Test
     public void registrationExistUser() {
+        logger.info("Start");
         User user = new User()
                 .setFirstName("Lisa")
                 .setLastName("Slow")
@@ -163,12 +176,13 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().submit();
 
         Assert.assertEquals(app.getHelperUser().getMessage(), "\"User already exists\"");
-
+        logger.info("End");
     }
 
 
-    @Test//(enabled = false)
+    @Test
     public void registrationPolicyButtonNotChecked() {
+        logger.info("Start");
         int i = new Random().nextInt(1000) + 1000;
         System.out.println(i);
         User user = new User()
@@ -177,14 +191,15 @@ public class RegistrationTests extends TestBase {
                 .setEmail("sllow" + i + "@gmail.com")
                 .setPassword("Sslow12345$");
 
+        app.getDriver().navigate().refresh();
+
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().pause(500);
         app.getHelperUser().submit();
 
         Assert.assertTrue(app.getHelperUser().isYallaBtnNotActive());
-
-
+        logger.info("End");
     }
 
 

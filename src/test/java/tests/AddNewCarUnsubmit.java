@@ -28,8 +28,9 @@ public class AddNewCarUnsubmit extends TestBase {
         }
     }
 
-    @Test
+    @Test //discription - NO error message
     public void addNewCarUnsuccessLocation() {
+        logger.info("Start");
         int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
         Car car = Car.builder()
                 .location("")
@@ -50,13 +51,13 @@ public class AddNewCarUnsubmit extends TestBase {
 
 //        Assert.assertEquals("", app.getHelperUser().getErrorText());      ---> bug? NO error message
         Assert.assertTrue(app.getHelperUser().isYallaBtnNotActive());
-
+        logger.info("End");
     }
-
 
 
     @Test
     public void addNewCarUnsuccessManufacture() {
+        logger.info("Start");
         Car car = Car.builder()
                 .location("Tel Aviv, Israel")
                 .manufactura("")
@@ -77,10 +78,12 @@ public class AddNewCarUnsubmit extends TestBase {
 
         Assert.assertEquals("Make is required", app.getHelperUser().getErrorText());
         Assert.assertTrue(app.getHelperUser().isYallaBtnNotActive());
+        logger.info("End");
     }
 
     @Test
     public void addNewCarUnsuccessModel() {
+        logger.info("Start");
         Car car = Car.builder()
                 .location("Tel Aviv, Israel")
                 .manufactura("Mazda")
@@ -101,10 +104,12 @@ public class AddNewCarUnsubmit extends TestBase {
 
         Assert.assertEquals("Model is required", app.getHelperUser().getErrorText());
         Assert.assertTrue(app.getHelperUser().isYallaBtnNotActive());
+        logger.info("End");
     }
 
     @Test
     public void addNewCarUnsuccessYear() {
+        logger.info("Start");
         Car car = Car.builder()
                 .location("Tel Aviv, Israel")
                 .manufactura("Mazda")
@@ -124,10 +129,12 @@ public class AddNewCarUnsubmit extends TestBase {
 
         Assert.assertEquals("Year required", app.getHelperUser().getErrorText());
         Assert.assertTrue(app.getHelperUser().isYallaBtnNotActive());
+        logger.info("End");
     }
 
     @Test(enabled = false)
     public void addNewCarUnsuccessFuel() {
+        logger.info("Start");
         Car car = Car.builder()
                 .location("Tel Aviv, Israel")
                 .manufactura("Mazda")
@@ -146,10 +153,12 @@ public class AddNewCarUnsubmit extends TestBase {
 
         Assert.assertEquals("Fuel is required", app.getHelperUser().getErrorText());
         Assert.assertTrue(app.getHelperUser().isYallaBtnNotActive());
+        logger.info("End");
     }
 
     @Test
     public void addNewCarUnsuccessSeats() {
+        logger.info("Start");
         Car car = Car.builder()
                 .location("Tel Aviv, Israel")
                 .manufactura("Mazda")
@@ -169,11 +178,12 @@ public class AddNewCarUnsubmit extends TestBase {
 
         Assert.assertEquals("Car must have min 2 seat", app.getHelperUser().getErrorText());
         Assert.assertTrue(app.getHelperUser().isYallaBtnNotActive());
-
+        logger.info("End");
     }
 
     @Test
     public void addNewCarUnsuccessCarClass() {
+        logger.info("Start");
         Car car = Car.builder()
                 .location("Tel Aviv, Israel")
                 .manufactura("Mazda")
@@ -192,12 +202,12 @@ public class AddNewCarUnsubmit extends TestBase {
 
         Assert.assertEquals("Car class is required", app.getHelperUser().getErrorText());
         Assert.assertTrue(app.getHelperUser().isYallaBtnNotActive());
-
-
+        logger.info("End");
     }
 
     @Test
     public void addNewCarUnsuccessCarRegNum() {
+        logger.info("Start");
         Car car = Car.builder()
                 .location("Tel Aviv, Israel")
                 .manufactura("Mazda")
@@ -217,7 +227,7 @@ public class AddNewCarUnsubmit extends TestBase {
 
         Assert.assertEquals("Car registration number is required", app.getHelperUser().getErrorText());
         Assert.assertTrue(app.getHelperUser().isYallaBtnNotActive());
-
+        logger.info("End");
     }
 
 
