@@ -55,21 +55,27 @@ public class HelperCar extends HelperBase {
 
     private void typeLocation(String location) {
         type(By.id("pickUpPlace"), location);
+        click(By.cssSelector("div.pac-item"));
+//        type(By.id("pickUpPlace"), location);
 //        click(By.cssSelector("div.pac-item"));
-        if (location != null && !location.trim().isEmpty()) {
-            try {
-                WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
-                WebElement suggestion = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.pac-item")));
-                suggestion.click();
-            } catch (TimeoutException e) {
-                System.out.println("⚠ No autocomplete suggestion appeared.");
-            }
-        }
+//        if (location != null && !location.trim().isEmpty()) {
+//            try {
+//                WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
+//                WebElement suggestion = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.pac-item")));
+//                suggestion.click();
+//            } catch (TimeoutException e) {
+//                System.out.println("⚠ No autocomplete suggestion appeared.");
+//            }
+//        }
     }
 
 
-    public void returnToHomePage() {
+    public void returnSuccessToHomePage() {
         click(By.xpath("//button[text()='Search cars']"));
+    }
+
+    public void returnUnsuccessToHomePage() {
+        click(By.xpath("//*[@id='0']"));
     }
 
     public void attachPhoto(String link) {
