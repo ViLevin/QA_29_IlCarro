@@ -13,49 +13,58 @@ public class LoginTests extends TestBase {
         //if 'Sign Out' present ---> logout
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
+            logger.info("Before method finish logout");
         }
 
     }
 
     @Test
     public void loginSuccessObject() {
+//        logger.info("Start test with name'loginSuccessObject'");
         User user = new User().setEmail("test12@gmail.com").setPassword("vilevinQa!1234");
 
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm(user);
+        logger.info("Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa!1234'");
         app.getHelperUser().submit();
         //Assert if element with text "Logged in success" is present
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
-
+        logger.info("Assert check message 'Logged in success'");
 
     }
 
     @Test
     public void loginSuccess() {
+
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("test12@gmail.com", "vilevinQa!1234");
+        logger.info("Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa!1234'");
         app.getHelperUser().submit();
         //Assert if element with text "Logged in success" is present
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
-
-
+        logger.info("Assert check message 'Logged in success'");
     }
 
     @Test
     public void loginSuccessModel() {
+
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("test12@gmail.com", "vilevinQa!1234");
+        logger.info("Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa!1234'");
         app.getHelperUser().submit();
         //Assert if element with text "Logged in success" is present
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
+        logger.info("Assert check alert message 'Logged in success'");
     }
 
     @Test
     public void loginWrongEmail() {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("test12gmail.com", "vilevinQa!1234");
+        logger.info("Test data ---> email: 'testest12gmail.com' & password: 'vilevinQa!1234'");
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getErrorText(), "It'snot look like email");
+        logger.info("Assert check alert message 'It'snot look like email'");
         Assert.assertTrue(app.getHelperUser().isYallaBtnNotActive());
     }
 
@@ -72,9 +81,11 @@ public class LoginTests extends TestBase {
     public void loginWrongPassword() {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("test12@gmail.com", "vilevinQa1234");
+        logger.info("Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa1234'");
         app.getHelperUser().submit();
 
         Assert.assertEquals(app.getHelperUser().getMessage(), "\"Login or Password incorrect\"");
+        logger.info("Assert check alert message 'Login or Password incorrect'");
 //        Assert.assertTrue(app.getHelperUser().isYallaBtnNotActive());
     }
 
@@ -93,10 +104,12 @@ public class LoginTests extends TestBase {
     public void loginUnregisteredUser() {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("0535592367vi@gmail.com", "vilevinQa!1234");
+        logger.info("Test data ---> email: '0535592367vi@gmail.com' & password: 'vilevinQa!1234'");
         app.getHelperUser().submit();
         //Assert if element with text "Logged in success" is present
 //        Assert.assertEquals(app.getHelperUser().getMessage(), "Password is required");
         Assert.assertEquals(app.getHelperUser().getMessage(), "\"Login or Password incorrect\"");
+        logger.info("Assert check alert message 'Login or Password incorrect'");
 
     }
 

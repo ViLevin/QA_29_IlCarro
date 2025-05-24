@@ -24,6 +24,7 @@ public class AddNewCarTestsSubmit extends TestBase {
 
     @Test
     public void addNewCarSuccessAll() {
+        logger.info("Start");
         int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
 
         Car car = Car.builder()
@@ -34,7 +35,7 @@ public class AddNewCarTestsSubmit extends TestBase {
                 .fuel("Petrol")
                 .seats(4)
                 .carClass("C")
-                .carRegNumber("113-900-22" + i)
+                .carRegNumber("113-180-22" + i)
                 .price(50.)
                 .about("Very nice car")
                 .build();
@@ -42,16 +43,20 @@ public class AddNewCarTestsSubmit extends TestBase {
 
         app.getHelperCar().openCarForm();
         app.getHelperCar().fillCarForm(car);
-        app.getHelperCar().attachPhoto("D:\\Vi\\QA_Auto\\QA_29_IlCarro\\DeLorean.jpg");
+        app.getHelperCar().attachPhoto("D:\\Vi\\QA_Auto\\QA_29_LV_IlCarro\\DeLorean.jpg");
         app.getHelperCar().submit();
+        app.getHelperCar().getScreen("src/test/screenshots"+i+".png");
+        app.getHelperUser().pause(1000);
+
         Assert.assertTrue(app.getHelperUser().getMessage().contains("added successful"));
         Assert.assertEquals(app.getHelperUser().getMessage(), car.getManufactura() + " " + car.getModel() + " " + "added successful");
-
+        logger.info("End");
     }
 
 
     @Test
     public void addNewCarSuccessRequired() {
+        logger.info("Start");
         int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
 
         Car car = Car.builder()
@@ -62,7 +67,7 @@ public class AddNewCarTestsSubmit extends TestBase {
                 .fuel("Petrol")
                 .seats(4)
                 .carClass("C")
-                .carRegNumber("515-900-55" + i)
+                .carRegNumber("515-180-55" + i)
                 .price(50.)
                 .build();
 
@@ -70,9 +75,11 @@ public class AddNewCarTestsSubmit extends TestBase {
         app.getHelperCar().openCarForm();
         app.getHelperCar().fillCarForm(car);
         app.getHelperCar().submit();
+        app.getHelperUser().pause(1000);
+
         Assert.assertTrue(app.getHelperUser().getMessage().contains("added successful"));
         Assert.assertEquals(app.getHelperUser().getMessage(), car.getManufactura() + " " + car.getModel() + " " + "added successful");
-
+        logger.info("End");
     }
 
 
@@ -82,6 +89,7 @@ public class AddNewCarTestsSubmit extends TestBase {
 
     @Test
     public void addNewCarWrongPrice() {
+        logger.info("Start");
         int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
 
         Car car = Car.builder()
@@ -92,7 +100,7 @@ public class AddNewCarTestsSubmit extends TestBase {
                 .fuel("Petrol")
                 .seats(4)
                 .carClass("C")
-                .carRegNumber("178-900-00" + i)
+                .carRegNumber("178-180-00" + i)
                 .price(0.0)
                 .about("Very nice car")
                 .build();
@@ -100,12 +108,13 @@ public class AddNewCarTestsSubmit extends TestBase {
         app.getHelperCar().openCarForm();
         app.getHelperCar().fillCarForm(car);
         app.getHelperCar().submit();
+        app.getHelperUser().pause(1000);
 
 //        Assert.assertEquals("Price is required", app.getHelperUser().getErrorText());   ---> bug?
 //        Assert.assertFalse(app.getHelperUser().isYallaBtnNotActive());
         Assert.assertTrue(app.getHelperUser().getMessage().contains("added successful"));
         Assert.assertEquals(app.getHelperUser().getMessage(), car.getManufactura() + " " + car.getModel() + " " + "added successful");
-
+        logger.info("End");
     }
 
 
@@ -114,3 +123,5 @@ public class AddNewCarTestsSubmit extends TestBase {
         app.getHelperCar().returnSuccessToHomePage();
     }
 }
+
+//"D:\Vi\QA_Auto\QA_29_LV_IlCarro\DeLorean.jpg"

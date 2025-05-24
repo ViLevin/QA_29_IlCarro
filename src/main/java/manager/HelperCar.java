@@ -37,6 +37,7 @@ public class HelperCar extends HelperBase {
         type(By.id("serialNumber"), car.getCarRegNumber());
 //        type(By.id("price"), String.valueOf(car.getPrice())); // = >>> String 1
         type(By.id("price"), car.getPrice() + "");// = >>> String 2
+//        type(By.id("pre"), car.getPrice() + "");// = >>> String 2
         type(By.id("about"), car.getAbout());
 
 
