@@ -1,0 +1,243 @@
+20:07:09.544 INFO  manager.ApplicationManager - All tests runs in Chrome Browser
+20:07:11.273 INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+20:07:11.300 INFO  tests.TestBase - Name of Method --->loginSuccess
+20:07:16.325 INFO  manager.WDListener - Before Find Element --->By.xpath: //a [text()=' Log in ']
+20:07:16.372 INFO  manager.WDListener - After Find Element --->By.xpath: //a [text()=' Log in ']
+20:07:16.403 INFO  manager.WDListener - After Find Element --->(1634, 24)
+20:07:16.451 INFO  manager.WDListener - Before click element --->atextLog in
+20:07:16.614 INFO  manager.WDListener - After click element --->atextLog in
+20:07:16.614 INFO  manager.WDListener - Before Find Element --->By.id: email
+20:07:16.659 INFO  manager.WDListener - After Find Element --->By.id: email
+20:07:16.678 INFO  manager.WDListener - After Find Element --->(1341, 266)
+20:07:16.704 INFO  manager.WDListener - Before click element --->inputtext
+20:07:16.853 INFO  manager.WDListener - After click element --->inputtext
+20:07:17.027 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:17.123 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:17.238 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:17.239 INFO  manager.WDListener - Before Find Element --->By.id: password
+20:07:17.272 INFO  manager.WDListener - After Find Element --->By.id: password
+20:07:17.290 INFO  manager.WDListener - After Find Element --->(1341, 343)
+20:07:17.314 INFO  manager.WDListener - Before click element --->inputtext
+20:07:17.443 INFO  manager.WDListener - After click element --->inputtext
+20:07:17.557 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:17.624 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:17.718 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:17.718 INFO  tests.TestBase - Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa!1234'
+20:07:17.719 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+20:07:17.752 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+20:07:17.772 INFO  manager.WDListener - After Find Element --->(1341, 414)
+20:07:17.798 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+20:07:17.929 INFO  manager.WDListener - After click element --->buttontextY’alla!
+20:07:19.939 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+20:07:19.976 INFO  manager.WDListener - After Find Element --->By.cssSelector: .dialog-container>h2
+20:07:19.996 INFO  manager.WDListener - After Find Element --->(776, 441)
+20:07:20.013 INFO  tests.TestBase - Assert check message 'Logged in success'
+20:07:20.052 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text() = 'Ok']
+20:07:20.087 INFO  manager.WDListener - After Find Element --->By.xpath: //button[text() = 'Ok']
+20:07:20.104 INFO  manager.WDListener - After Find Element --->(986, 495)
+20:07:20.129 INFO  manager.WDListener - Before click element --->buttontextOk
+20:07:20.253 INFO  manager.WDListener - After click element --->buttontextOk
+20:07:20.254 INFO  tests.TestBase - ==================================================
+20:07:20.256 INFO  tests.TestBase - Name of Method --->loginSuccessModel
+20:07:20.281 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[text()=' Logout ']
+20:07:20.337 INFO  manager.WDListener - After Find Element --->By.xpath: //*[text()=' Logout ']
+20:07:20.355 INFO  manager.WDListener - After Find Element --->(1446, 24)
+20:07:20.379 INFO  manager.WDListener - Before click element --->atextLogout
+20:07:20.548 INFO  tests.TestBase - Before method finish logout
+20:07:20.549 INFO  manager.WDListener - Before Find Element --->By.xpath: //a [text()=' Log in ']
+20:07:20.575 INFO  manager.WDListener - After Find Element --->By.xpath: //a [text()=' Log in ']
+20:07:20.597 INFO  manager.WDListener - After Find Element --->(1634, 24)
+20:07:20.627 INFO  manager.WDListener - Before click element --->atextLog in
+20:07:20.777 INFO  manager.WDListener - After click element --->atextLog in
+20:07:20.778 INFO  manager.WDListener - Before Find Element --->By.id: email
+20:07:20.805 INFO  manager.WDListener - After Find Element --->By.id: email
+20:07:20.826 INFO  manager.WDListener - After Find Element --->(1341, 266)
+20:07:20.856 INFO  manager.WDListener - Before click element --->inputtext
+20:07:21.023 INFO  manager.WDListener - After click element --->inputtext
+20:07:21.179 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:21.273 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:21.394 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:21.395 INFO  manager.WDListener - Before Find Element --->By.id: password
+20:07:21.417 INFO  manager.WDListener - After Find Element --->By.id: password
+20:07:21.434 INFO  manager.WDListener - After Find Element --->(1341, 343)
+20:07:21.461 INFO  manager.WDListener - Before click element --->inputtext
+20:07:21.587 INFO  manager.WDListener - After click element --->inputtext
+20:07:21.704 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:21.771 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:21.860 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:21.860 INFO  tests.TestBase - Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa!1234'
+20:07:21.860 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+20:07:21.883 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+20:07:21.900 INFO  manager.WDListener - After Find Element --->(1341, 414)
+20:07:21.925 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+20:07:22.038 INFO  manager.WDListener - After click element --->buttontextY’alla!
+20:07:24.042 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+20:07:24.058 INFO  manager.WDListener - After Find Element --->By.cssSelector: .dialog-container>h2
+20:07:24.073 INFO  manager.WDListener - After Find Element --->(776, 441)
+20:07:24.089 INFO  tests.TestBase - Assert check alert message 'Logged in success'
+20:07:24.112 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text() = 'Ok']
+20:07:24.135 INFO  manager.WDListener - After Find Element --->By.xpath: //button[text() = 'Ok']
+20:07:24.156 INFO  manager.WDListener - After Find Element --->(986, 495)
+20:07:24.185 INFO  manager.WDListener - Before click element --->buttontextOk
+20:07:24.298 INFO  manager.WDListener - After click element --->buttontextOk
+20:07:24.300 INFO  tests.TestBase - ==================================================
+20:07:24.301 INFO  tests.TestBase - Name of Method --->loginSuccessObject
+20:07:24.318 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[text()=' Logout ']
+20:07:24.345 INFO  manager.WDListener - After Find Element --->By.xpath: //*[text()=' Logout ']
+20:07:24.379 INFO  manager.WDListener - After Find Element --->(1446, 24)
+20:07:24.398 INFO  manager.WDListener - Before click element --->atextLogout
+20:07:24.517 INFO  tests.TestBase - Before method finish logout
+20:07:24.518 INFO  manager.WDListener - Before Find Element --->By.xpath: //a [text()=' Log in ']
+20:07:24.531 INFO  manager.WDListener - After Find Element --->By.xpath: //a [text()=' Log in ']
+20:07:24.547 INFO  manager.WDListener - After Find Element --->(1634, 24)
+20:07:24.581 INFO  manager.WDListener - Before click element --->atextLog in
+20:07:24.716 INFO  manager.WDListener - After click element --->atextLog in
+20:07:24.717 INFO  manager.WDListener - Before Find Element --->By.id: email
+20:07:24.739 INFO  manager.WDListener - After Find Element --->By.id: email
+20:07:24.748 INFO  manager.WDListener - After Find Element --->(1341, 266)
+20:07:24.786 INFO  manager.WDListener - Before click element --->inputtext
+20:07:24.942 INFO  manager.WDListener - After click element --->inputtext
+20:07:25.108 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:25.223 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:25.348 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:25.349 INFO  manager.WDListener - Before Find Element --->By.id: password
+20:07:25.370 INFO  manager.WDListener - After Find Element --->By.id: password
+20:07:25.390 INFO  manager.WDListener - After Find Element --->(1341, 343)
+20:07:25.417 INFO  manager.WDListener - Before click element --->inputtext
+20:07:25.556 INFO  manager.WDListener - After click element --->inputtext
+20:07:25.676 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:25.748 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:25.838 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:25.838 INFO  tests.TestBase - Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa!1234'
+20:07:25.838 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+20:07:25.858 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+20:07:25.875 INFO  manager.WDListener - After Find Element --->(1341, 414)
+20:07:25.899 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+20:07:26.011 INFO  manager.WDListener - After click element --->buttontextY’alla!
+20:07:28.026 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+20:07:28.042 INFO  manager.WDListener - After Find Element --->By.cssSelector: .dialog-container>h2
+20:07:28.058 INFO  manager.WDListener - After Find Element --->(776, 441)
+20:07:28.073 INFO  tests.TestBase - Assert check message 'Logged in success'
+20:07:28.089 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text() = 'Ok']
+20:07:28.120 INFO  manager.WDListener - After Find Element --->By.xpath: //button[text() = 'Ok']
+20:07:28.136 INFO  manager.WDListener - After Find Element --->(986, 495)
+20:07:28.152 INFO  manager.WDListener - Before click element --->buttontextOk
+20:07:28.264 INFO  manager.WDListener - After click element --->buttontextOk
+20:07:28.264 INFO  tests.TestBase - ==================================================
+20:07:28.264 INFO  tests.TestBase - Name of Method --->loginUnregisteredUser
+20:07:28.282 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[text()=' Logout ']
+20:07:28.298 INFO  manager.WDListener - After Find Element --->By.xpath: //*[text()=' Logout ']
+20:07:28.337 INFO  manager.WDListener - After Find Element --->(1446, 24)
+20:07:28.350 INFO  manager.WDListener - Before click element --->atextLogout
+20:07:28.473 INFO  tests.TestBase - Before method finish logout
+20:07:28.473 INFO  manager.WDListener - Before Find Element --->By.xpath: //a [text()=' Log in ']
+20:07:28.492 INFO  manager.WDListener - After Find Element --->By.xpath: //a [text()=' Log in ']
+20:07:28.498 INFO  manager.WDListener - After Find Element --->(1634, 24)
+20:07:28.533 INFO  manager.WDListener - Before click element --->atextLog in
+20:07:28.645 INFO  manager.WDListener - After click element --->atextLog in
+20:07:28.645 INFO  manager.WDListener - Before Find Element --->By.id: email
+20:07:28.663 INFO  manager.WDListener - After Find Element --->By.id: email
+20:07:28.679 INFO  manager.WDListener - After Find Element --->(1341, 266)
+20:07:28.701 INFO  manager.WDListener - Before click element --->inputtext
+20:07:28.837 INFO  manager.WDListener - After click element --->inputtext
+20:07:28.973 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:29.071 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:29.201 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:29.201 INFO  manager.WDListener - Before Find Element --->By.id: password
+20:07:29.222 INFO  manager.WDListener - After Find Element --->By.id: password
+20:07:29.243 INFO  manager.WDListener - After Find Element --->(1341, 343)
+20:07:29.273 INFO  manager.WDListener - Before click element --->inputtext
+20:07:29.421 INFO  manager.WDListener - After click element --->inputtext
+20:07:29.555 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:29.632 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:29.729 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:29.729 INFO  tests.TestBase - Test data ---> email: '0535592367vi@gmail.com' & password: 'vilevinQa!1234'
+20:07:29.729 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+20:07:29.749 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+20:07:29.768 INFO  manager.WDListener - After Find Element --->(1341, 414)
+20:07:29.793 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+20:07:29.914 INFO  manager.WDListener - After click element --->buttontextY’alla!
+20:07:31.916 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+20:07:31.932 INFO  manager.WDListener - After Find Element --->By.cssSelector: .dialog-container>h2
+20:07:31.954 INFO  manager.WDListener - After Find Element --->(776, 441)
+20:07:31.963 INFO  tests.TestBase - Assert check alert message 'Login or Password incorrect'
+20:07:31.995 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text() = 'Ok']
+20:07:32.010 INFO  manager.WDListener - After Find Element --->By.xpath: //button[text() = 'Ok']
+20:07:32.026 INFO  manager.WDListener - After Find Element --->(986, 495)
+20:07:32.058 INFO  manager.WDListener - Before click element --->buttontextOk
+20:07:32.168 INFO  manager.WDListener - After click element --->buttontextOk
+20:07:32.168 INFO  tests.TestBase - ==================================================
+20:07:32.168 INFO  tests.TestBase - Name of Method --->loginWrongEmail
+20:07:37.183 INFO  manager.WDListener - Before Find Element --->By.xpath: //a [text()=' Log in ']
+20:07:37.206 INFO  manager.WDListener - After Find Element --->By.xpath: //a [text()=' Log in ']
+20:07:37.226 INFO  manager.WDListener - After Find Element --->(1634, 24)
+20:07:37.251 INFO  manager.WDListener - Before click element --->atextLog in
+20:07:37.374 INFO  manager.WDListener - After click element --->atextLog in
+20:07:37.375 INFO  manager.WDListener - Before Find Element --->By.id: email
+20:07:37.393 INFO  manager.WDListener - After Find Element --->By.id: email
+20:07:37.411 INFO  manager.WDListener - After Find Element --->(1341, 266)
+20:07:37.435 INFO  manager.WDListener - Before click element --->inputtext
+20:07:37.566 INFO  manager.WDListener - After click element --->inputtext
+20:07:37.732 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:37.814 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:37.915 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:37.915 INFO  manager.WDListener - Before Find Element --->By.id: password
+20:07:37.932 INFO  manager.WDListener - After Find Element --->By.id: password
+20:07:37.948 INFO  manager.WDListener - After Find Element --->(1341, 362)
+20:07:37.970 INFO  manager.WDListener - Before click element --->inputtext
+20:07:38.089 INFO  manager.WDListener - After click element --->inputtext
+20:07:38.226 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:38.290 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:38.384 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:38.384 INFO  tests.TestBase - Test data ---> email: 'testest12gmail.com' & password: 'vilevinQa!1234'
+20:07:38.384 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+20:07:38.404 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+20:07:38.425 INFO  manager.WDListener - After Find Element --->(1341, 433)
+20:07:38.452 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+20:07:38.593 INFO  manager.WDListener - After click element --->buttontextY’alla!
+20:07:38.593 INFO  manager.WDListener - Before Find Element --->By.cssSelector: div.error
+20:07:38.621 INFO  manager.WDListener - After Find Element --->By.cssSelector: div.error
+20:07:38.642 INFO  manager.WDListener - After Find Element --->(1341, 312)
+20:07:38.659 INFO  tests.TestBase - Assert check alert message 'It'snot look like email'
+20:07:38.688 INFO  manager.WDListener - Before Find Element --->By.cssSelector: button[type = 'submit']
+20:07:38.717 INFO  manager.WDListener - After Find Element --->By.cssSelector: button[type = 'submit']
+20:07:38.739 INFO  manager.WDListener - After Find Element --->(1341, 433)
+20:07:43.790 INFO  tests.TestBase - ==================================================
+20:07:43.790 INFO  tests.TestBase - Name of Method --->loginWrongPassword
+20:07:48.815 INFO  manager.WDListener - Before Find Element --->By.xpath: //a [text()=' Log in ']
+20:07:48.837 INFO  manager.WDListener - After Find Element --->By.xpath: //a [text()=' Log in ']
+20:07:48.854 INFO  manager.WDListener - After Find Element --->(1634, 24)
+20:07:48.878 INFO  manager.WDListener - Before click element --->atextLog in
+20:07:48.989 INFO  manager.WDListener - After click element --->atextLog in
+20:07:48.990 INFO  manager.WDListener - Before Find Element --->By.id: email
+20:07:49.007 INFO  manager.WDListener - After Find Element --->By.id: email
+20:07:49.015 INFO  manager.WDListener - After Find Element --->(1341, 266)
+20:07:49.044 INFO  manager.WDListener - Before click element --->inputtext
+20:07:49.154 INFO  manager.WDListener - After click element --->inputtext
+20:07:49.294 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:49.377 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:49.480 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:49.480 INFO  manager.WDListener - Before Find Element --->By.id: password
+20:07:49.498 INFO  manager.WDListener - After Find Element --->By.id: password
+20:07:49.515 INFO  manager.WDListener - After Find Element --->(1341, 343)
+20:07:49.531 INFO  manager.WDListener - Before click element --->inputtext
+20:07:49.649 INFO  manager.WDListener - After click element --->inputtext
+20:07:49.784 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:49.833 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:49.927 INFO  manager.WDListener - sendKeys --->inputtext
+20:07:49.928 INFO  tests.TestBase - Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa1234'
+20:07:49.928 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+20:07:49.944 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+20:07:49.948 INFO  manager.WDListener - After Find Element --->(1341, 414)
+20:07:49.980 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+20:07:50.082 INFO  manager.WDListener - After click element --->buttontextY’alla!
+20:07:52.088 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+20:07:52.111 INFO  manager.WDListener - After Find Element --->By.cssSelector: .dialog-container>h2
+20:07:52.129 INFO  manager.WDListener - After Find Element --->(776, 441)
+20:07:52.143 INFO  tests.TestBase - Assert check alert message 'Login or Password incorrect'
+20:07:52.162 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text() = 'Ok']
+20:07:52.181 INFO  manager.WDListener - After Find Element --->By.xpath: //button[text() = 'Ok']
+20:07:52.196 INFO  manager.WDListener - After Find Element --->(986, 495)
+20:07:52.218 INFO  manager.WDListener - Before click element --->buttontextOk
+20:07:52.316 INFO  manager.WDListener - After click element --->buttontextOk
+20:07:52.317 INFO  tests.TestBase - ==================================================

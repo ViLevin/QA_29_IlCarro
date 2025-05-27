@@ -20,7 +20,10 @@ public class LoginTests extends TestBase {
 
     @Test
     public void loginSuccessObject() {
+
 //        logger.info("Start test with name'loginSuccessObject'");
+        logger.info("Start");
+
         User user = new User().setEmail("test12@gmail.com").setPassword("vilevinQa!1234");
 
         app.getHelperUser().openLoginForm();
@@ -29,32 +32,38 @@ public class LoginTests extends TestBase {
         app.getHelperUser().submit();
         //Assert if element with text "Logged in success" is present
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
+
         logger.info("Assert check message 'Logged in success'");
+
+
+        logger.info("End");
 
     }
 
     @Test
     public void loginSuccess() {
-
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("test12@gmail.com", "vilevinQa!1234");
         logger.info("Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa!1234'");
         app.getHelperUser().submit();
         //Assert if element with text "Logged in success" is present
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
+
         logger.info("Assert check message 'Logged in success'");
     }
 
     @Test
     public void loginSuccessModel() {
-
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("test12@gmail.com", "vilevinQa!1234");
         logger.info("Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa!1234'");
         app.getHelperUser().submit();
         //Assert if element with text "Logged in success" is present
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
+
         logger.info("Assert check alert message 'Logged in success'");
+
+
     }
 
     @Test

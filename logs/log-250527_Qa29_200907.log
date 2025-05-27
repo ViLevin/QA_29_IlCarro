@@ -1,0 +1,343 @@
+20:09:09.970 INFO  manager.ApplicationManager - All tests runs in Chrome Browser
+20:09:11.927 INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+20:09:16.991 INFO  manager.WDListener - Before Find Element --->By.xpath: //a [text()=' Log in ']
+20:09:17.039 INFO  manager.WDListener - After Find Element --->By.xpath: //a [text()=' Log in ']
+20:09:17.068 INFO  manager.WDListener - After Find Element --->(1634, 24)
+20:09:17.118 INFO  manager.WDListener - Before click element --->atextLog in
+20:09:17.270 INFO  manager.WDListener - After click element --->atextLog in
+20:09:17.272 INFO  manager.WDListener - Before Find Element --->By.id: email
+20:09:17.308 INFO  manager.WDListener - After Find Element --->By.id: email
+20:09:17.327 INFO  manager.WDListener - After Find Element --->(1341, 266)
+20:09:17.353 INFO  manager.WDListener - Before click element --->inputtext
+20:09:17.486 INFO  manager.WDListener - After click element --->inputtext
+20:09:17.645 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:17.739 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:17.852 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:17.853 INFO  manager.WDListener - Before Find Element --->By.id: password
+20:09:17.886 INFO  manager.WDListener - After Find Element --->By.id: password
+20:09:17.904 INFO  manager.WDListener - After Find Element --->(1341, 343)
+20:09:17.927 INFO  manager.WDListener - Before click element --->inputtext
+20:09:18.051 INFO  manager.WDListener - After click element --->inputtext
+20:09:18.153 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:18.215 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:18.295 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:18.295 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+20:09:18.328 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+20:09:18.345 INFO  manager.WDListener - After Find Element --->(1341, 414)
+20:09:18.368 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+20:09:18.487 INFO  manager.WDListener - After click element --->buttontextY’alla!
+20:09:19.486 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text() = 'Ok']
+20:09:19.521 INFO  manager.WDListener - After Find Element --->By.xpath: //button[text() = 'Ok']
+20:09:19.540 INFO  manager.WDListener - After Find Element --->(984, 492)
+20:09:19.564 INFO  manager.WDListener - Before click element --->buttontextOk
+20:09:19.692 INFO  manager.WDListener - After click element --->buttontextOk
+20:09:19.718 INFO  tests.TestBase - Name of Method --->addNewCarSuccessAll
+20:09:19.720 INFO  tests.TestBase - Start
+20:09:24.735 INFO  manager.WDListener - Before Find Element --->By.xpath: //a[@href='let-car-work']
+20:09:24.772 INFO  manager.WDListener - After Find Element --->By.xpath: //a[@href='let-car-work']
+20:09:24.792 INFO  manager.WDListener - After Find Element --->(1411, 1889)
+20:09:24.816 INFO  manager.WDListener - Before click element --->atextLet the car work
+20:09:25.316 INFO  manager.WDListener - Before Find Element --->By.id: pickUpPlace
+20:09:25.347 INFO  manager.WDListener - After Find Element --->By.id: pickUpPlace
+20:09:25.363 INFO  manager.WDListener - After Find Element --->(172, 360)
+20:09:25.394 INFO  manager.WDListener - Before click element --->inputtext
+20:09:25.519 INFO  manager.WDListener - After click element --->inputtext
+20:09:25.628 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:25.707 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:25.801 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:25.801 INFO  manager.WDListener - Before Find Element --->By.cssSelector: div.pac-item
+20:09:26.793 INFO  manager.WDListener - After Find Element --->By.cssSelector: div.pac-item
+20:09:26.822 INFO  manager.WDListener - After Find Element --->(173, 408)
+20:09:26.837 INFO  manager.WDListener - Before click element --->divtextTel AvivIsrael
+20:09:26.977 INFO  manager.WDListener - Before Find Element --->By.id: make
+20:09:27.002 INFO  manager.WDListener - After Find Element --->By.id: make
+20:09:27.027 INFO  manager.WDListener - After Find Element --->(172, 553)
+20:09:27.052 INFO  manager.WDListener - Before click element --->inputtext
+20:09:27.182 INFO  manager.WDListener - After click element --->inputtext
+20:09:27.289 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:27.356 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:27.427 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:27.427 INFO  manager.WDListener - Before Find Element --->By.id: model
+20:09:27.456 INFO  manager.WDListener - After Find Element --->By.id: model
+20:09:27.473 INFO  manager.WDListener - After Find Element --->(172, 636)
+20:09:27.497 INFO  manager.WDListener - Before click element --->inputtext
+20:09:27.617 INFO  manager.WDListener - After click element --->inputtext
+20:09:27.717 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:27.783 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:27.847 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:27.847 INFO  manager.WDListener - Before Find Element --->By.id: year
+20:09:27.875 INFO  manager.WDListener - After Find Element --->By.id: year
+20:09:27.892 INFO  manager.WDListener - After Find Element --->(172, 713)
+20:09:27.916 INFO  manager.WDListener - Before click element --->inputtext
+20:09:28.037 INFO  manager.WDListener - After click element --->inputtext
+20:09:28.159 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:28.234 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:28.323 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:28.325 INFO  manager.WDListener - Before Find Element --->By.id: fuel
+20:09:28.354 INFO  manager.WDListener - After Find Element --->By.id: fuel
+20:09:28.371 INFO  manager.WDListener - After Find Element --->(172, 789)
+20:09:28.489 INFO  manager.WDListener - Before click element --->optiontextPetrol
+20:09:28.554 INFO  manager.WDListener - After click element --->optiontextPetrol
+20:09:28.555 INFO  manager.WDListener - Before Find Element --->By.id: seats
+20:09:28.583 INFO  manager.WDListener - After Find Element --->By.id: seats
+20:09:28.601 INFO  manager.WDListener - After Find Element --->(172, 868)
+20:09:28.625 INFO  manager.WDListener - Before click element --->inputtext
+20:09:28.758 INFO  manager.WDListener - After click element --->inputtext
+20:09:28.877 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:28.955 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:29.021 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:29.021 INFO  manager.WDListener - Before Find Element --->By.id: class
+20:09:29.052 INFO  manager.WDListener - After Find Element --->By.id: class
+20:09:29.068 INFO  manager.WDListener - After Find Element --->(172, 944)
+20:09:29.100 INFO  manager.WDListener - Before click element --->inputtext
+20:09:29.209 INFO  manager.WDListener - After click element --->inputtext
+20:09:29.304 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:29.366 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:29.429 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:29.429 INFO  manager.WDListener - Before Find Element --->By.id: serialNumber
+20:09:29.453 INFO  manager.WDListener - After Find Element --->By.id: serialNumber
+20:09:29.469 INFO  manager.WDListener - After Find Element --->(172, 1021)
+20:09:29.501 INFO  manager.WDListener - Before click element --->inputtext
+20:09:29.611 INFO  manager.WDListener - After click element --->inputtext
+20:09:29.705 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:29.767 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:29.846 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:29.846 INFO  manager.WDListener - Before Find Element --->By.id: price
+20:09:29.877 INFO  manager.WDListener - After Find Element --->By.id: price
+20:09:29.897 INFO  manager.WDListener - After Find Element --->(172, 1097)
+20:09:29.924 INFO  manager.WDListener - Before click element --->inputtext
+20:09:30.019 INFO  manager.WDListener - After click element --->inputtext
+20:09:30.144 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:30.223 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:30.301 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:30.301 INFO  manager.WDListener - Before Find Element --->By.id: about
+20:09:30.332 INFO  manager.WDListener - After Find Element --->By.id: about
+20:09:30.348 INFO  manager.WDListener - After Find Element --->(172, 1215)
+20:09:30.379 INFO  manager.WDListener - Before click element --->textareatext
+20:09:30.498 INFO  manager.WDListener - After click element --->textareatext
+20:09:30.583 INFO  manager.WDListener - sendKeys --->textareatext
+20:09:30.646 INFO  manager.WDListener - sendKeys --->textareatext
+20:09:30.709 INFO  manager.WDListener - sendKeys --->textareatext
+20:09:30.709 INFO  manager.WDListener - Before Find Element --->By.id: photos
+20:09:30.741 INFO  manager.WDListener - After Find Element --->By.id: photos
+20:09:30.756 INFO  manager.WDListener - After Find Element --->(172, 1556)
+20:09:30.835 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:30.835 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+20:09:30.866 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+20:09:30.869 INFO  manager.WDListener - After Find Element --->(172, 1656)
+20:09:30.900 INFO  manager.WDListener - Before click element --->buttontextSubmit
+20:09:31.044 INFO  manager.WDListener - After click element --->buttontextSubmit
+20:09:34.564 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+20:09:34.603 INFO  manager.WDListener - After Find Element --->By.cssSelector: .dialog-container>h2
+20:09:34.624 INFO  manager.WDListener - After Find Element --->(776, 441)
+20:09:36.654 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+20:09:36.670 INFO  manager.WDListener - After Find Element --->By.cssSelector: .dialog-container>h2
+20:09:36.686 INFO  manager.WDListener - After Find Element --->(776, 441)
+20:09:36.701 INFO  tests.TestBase - End
+20:09:36.704 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text()='Search cars']
+20:09:36.733 INFO  manager.WDListener - After Find Element --->By.xpath: //button[text()='Search cars']
+20:09:36.749 INFO  manager.WDListener - After Find Element --->(922, 495)
+20:09:36.764 INFO  manager.WDListener - Before click element --->buttontextSearch cars
+20:09:36.890 INFO  manager.WDListener - After click element --->buttontextSearch cars
+20:09:36.890 INFO  tests.TestBase - ==================================================
+20:09:36.890 INFO  tests.TestBase - Name of Method --->addNewCarSuccessRequired
+20:09:36.890 INFO  tests.TestBase - Start
+20:09:41.905 INFO  manager.WDListener - Before Find Element --->By.xpath: //a[@href='let-car-work']
+20:09:41.936 INFO  manager.WDListener - After Find Element --->By.xpath: //a[@href='let-car-work']
+20:09:41.954 INFO  manager.WDListener - After Find Element --->(1411, 1889)
+20:09:41.977 INFO  manager.WDListener - Before click element --->atextLet the car work
+20:09:42.441 INFO  manager.WDListener - Before Find Element --->By.id: pickUpPlace
+20:09:42.470 INFO  manager.WDListener - After Find Element --->By.id: pickUpPlace
+20:09:42.489 INFO  manager.WDListener - After Find Element --->(172, 360)
+20:09:42.515 INFO  manager.WDListener - Before click element --->inputtext
+20:09:42.641 INFO  manager.WDListener - After click element --->inputtext
+20:09:42.746 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:42.812 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:42.905 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:42.905 INFO  manager.WDListener - Before Find Element --->By.cssSelector: div.pac-item
+20:09:43.491 INFO  manager.WDListener - After Find Element --->By.cssSelector: div.pac-item
+20:09:43.513 INFO  manager.WDListener - After Find Element --->(173, 408)
+20:09:43.538 INFO  manager.WDListener - Before click element --->divtextTel AvivIsrael
+20:09:43.648 INFO  manager.WDListener - Before Find Element --->By.id: make
+20:09:43.661 INFO  manager.WDListener - After Find Element --->By.id: make
+20:09:43.677 INFO  manager.WDListener - After Find Element --->(172, 553)
+20:09:43.708 INFO  manager.WDListener - Before click element --->inputtext
+20:09:43.834 INFO  manager.WDListener - After click element --->inputtext
+20:09:43.928 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:43.990 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:44.069 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:44.069 INFO  manager.WDListener - Before Find Element --->By.id: model
+20:09:44.091 INFO  manager.WDListener - After Find Element --->By.id: model
+20:09:44.114 INFO  manager.WDListener - After Find Element --->(172, 636)
+20:09:44.123 INFO  manager.WDListener - Before click element --->inputtext
+20:09:44.249 INFO  manager.WDListener - After click element --->inputtext
+20:09:44.343 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:44.421 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:44.484 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:44.484 INFO  manager.WDListener - Before Find Element --->By.id: year
+20:09:44.500 INFO  manager.WDListener - After Find Element --->By.id: year
+20:09:44.516 INFO  manager.WDListener - After Find Element --->(172, 713)
+20:09:44.547 INFO  manager.WDListener - Before click element --->inputtext
+20:09:44.657 INFO  manager.WDListener - After click element --->inputtext
+20:09:44.766 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:44.845 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:44.925 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:44.925 INFO  manager.WDListener - Before Find Element --->By.id: fuel
+20:09:44.956 INFO  manager.WDListener - After Find Element --->By.id: fuel
+20:09:44.972 INFO  manager.WDListener - After Find Element --->(172, 789)
+20:09:45.076 INFO  manager.WDListener - Before click element --->optiontextPetrol
+20:09:45.135 INFO  manager.WDListener - After click element --->optiontextPetrol
+20:09:45.135 INFO  manager.WDListener - Before Find Element --->By.id: seats
+20:09:45.156 INFO  manager.WDListener - After Find Element --->By.id: seats
+20:09:45.173 INFO  manager.WDListener - After Find Element --->(172, 868)
+20:09:45.196 INFO  manager.WDListener - Before click element --->inputtext
+20:09:45.315 INFO  manager.WDListener - After click element --->inputtext
+20:09:45.438 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:45.514 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:45.592 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:45.593 INFO  manager.WDListener - Before Find Element --->By.id: class
+20:09:45.615 INFO  manager.WDListener - After Find Element --->By.id: class
+20:09:45.632 INFO  manager.WDListener - After Find Element --->(172, 944)
+20:09:45.655 INFO  manager.WDListener - Before click element --->inputtext
+20:09:45.773 INFO  manager.WDListener - After click element --->inputtext
+20:09:45.877 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:45.944 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:46.009 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:46.010 INFO  manager.WDListener - Before Find Element --->By.id: serialNumber
+20:09:46.032 INFO  manager.WDListener - After Find Element --->By.id: serialNumber
+20:09:46.046 INFO  manager.WDListener - After Find Element --->(172, 1021)
+20:09:46.066 INFO  manager.WDListener - Before click element --->inputtext
+20:09:46.179 INFO  manager.WDListener - After click element --->inputtext
+20:09:46.274 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:46.334 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:46.409 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:46.409 INFO  manager.WDListener - Before Find Element --->By.id: price
+20:09:46.433 INFO  manager.WDListener - After Find Element --->By.id: price
+20:09:46.448 INFO  manager.WDListener - After Find Element --->(172, 1097)
+20:09:46.469 INFO  manager.WDListener - Before click element --->inputtext
+20:09:46.580 INFO  manager.WDListener - After click element --->inputtext
+20:09:46.703 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:46.781 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:46.863 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:46.863 INFO  manager.WDListener - Before Find Element --->By.id: about
+20:09:46.884 INFO  manager.WDListener - After Find Element --->By.id: about
+20:09:46.901 INFO  manager.WDListener - After Find Element --->(172, 1215)
+20:09:46.922 INFO  manager.WDListener - Before click element --->textareatext
+20:09:47.021 INFO  manager.WDListener - After click element --->textareatext
+20:09:47.117 INFO  manager.WDListener - sendKeys --->textareatext
+20:09:47.177 INFO  manager.WDListener - sendKeys --->textareatext
+20:09:47.177 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+20:09:47.202 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+20:09:47.217 INFO  manager.WDListener - After Find Element --->(172, 1607)
+20:09:47.233 INFO  manager.WDListener - Before click element --->buttontextSubmit
+20:09:47.358 INFO  manager.WDListener - After click element --->buttontextSubmit
+20:09:50.374 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+20:09:50.400 INFO  manager.WDListener - After Find Element --->By.cssSelector: .dialog-container>h2
+20:09:50.418 INFO  manager.WDListener - After Find Element --->(829, 443)
+20:09:50.435 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text()='Search cars']
+20:09:50.460 INFO  manager.WDListener - After Find Element --->By.xpath: //button[text()='Search cars']
+20:09:50.476 INFO  manager.WDListener - After Find Element --->(931, 480)
+20:09:50.498 INFO  manager.WDListener - Before click element --->buttontext
+20:09:50.617 INFO  manager.WDListener - After click element --->buttontext
+20:09:50.617 INFO  tests.TestBase - ==================================================
+20:09:50.618 INFO  tests.TestBase - Name of Method --->addNewCarWrongPrice
+20:09:50.619 INFO  tests.TestBase - Start
+20:09:55.631 INFO  manager.WDListener - Before Find Element --->By.xpath: //a[@href='let-car-work']
+20:09:55.658 INFO  manager.WDListener - After Find Element --->By.xpath: //a[@href='let-car-work']
+20:09:55.674 INFO  manager.WDListener - After Find Element --->(1411, 1889)
+20:09:55.697 INFO  manager.WDListener - Before click element --->atextLet the car work
+20:09:56.017 INFO  manager.WDListener - Before Find Element --->By.id: pickUpPlace
+20:09:56.039 INFO  manager.WDListener - After Find Element --->By.id: pickUpPlace
+20:09:56.058 INFO  manager.WDListener - After Find Element --->(172, 360)
+20:09:56.097 INFO  manager.WDListener - Before click element --->inputtext
+20:09:56.208 INFO  manager.WDListener - After click element --->inputtext
+20:09:56.312 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:56.373 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:56.466 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:56.467 INFO  manager.WDListener - Before Find Element --->By.cssSelector: div.pac-item
+20:09:57.492 INFO  manager.WDListener - After Find Element --->By.cssSelector: div.pac-item
+20:09:57.508 INFO  manager.WDListener - After Find Element --->(173, 408)
+20:09:57.534 INFO  manager.WDListener - Before click element --->divtextTel AvivIsrael
+20:09:57.635 INFO  manager.WDListener - Before Find Element --->By.id: make
+20:09:57.654 INFO  manager.WDListener - After Find Element --->By.id: make
+20:09:57.670 INFO  manager.WDListener - After Find Element --->(172, 553)
+20:09:57.701 INFO  manager.WDListener - Before click element --->inputtext
+20:09:57.835 INFO  manager.WDListener - After click element --->inputtext
+20:09:57.937 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:58.000 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:58.063 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:58.063 INFO  manager.WDListener - Before Find Element --->By.id: model
+20:09:58.078 INFO  manager.WDListener - After Find Element --->By.id: model
+20:09:58.094 INFO  manager.WDListener - After Find Element --->(172, 636)
+20:09:58.125 INFO  manager.WDListener - Before click element --->inputtext
+20:09:58.236 INFO  manager.WDListener - After click element --->inputtext
+20:09:58.346 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:58.408 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:58.471 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:58.471 INFO  manager.WDListener - Before Find Element --->By.id: year
+20:09:58.487 INFO  manager.WDListener - After Find Element --->By.id: year
+20:09:58.502 INFO  manager.WDListener - After Find Element --->(172, 713)
+20:09:58.536 INFO  manager.WDListener - Before click element --->inputtext
+20:09:58.644 INFO  manager.WDListener - After click element --->inputtext
+20:09:58.770 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:58.848 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:58.942 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:58.942 INFO  manager.WDListener - Before Find Element --->By.id: fuel
+20:09:58.958 INFO  manager.WDListener - After Find Element --->By.id: fuel
+20:09:58.973 INFO  manager.WDListener - After Find Element --->(172, 789)
+20:09:59.068 INFO  manager.WDListener - Before click element --->optiontextPetrol
+20:09:59.115 INFO  manager.WDListener - After click element --->optiontextPetrol
+20:09:59.115 INFO  manager.WDListener - Before Find Element --->By.id: seats
+20:09:59.137 INFO  manager.WDListener - After Find Element --->By.id: seats
+20:09:59.146 INFO  manager.WDListener - After Find Element --->(172, 868)
+20:09:59.178 INFO  manager.WDListener - Before click element --->inputtext
+20:09:59.287 INFO  manager.WDListener - After click element --->inputtext
+20:09:59.397 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:59.491 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:59.585 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:59.585 INFO  manager.WDListener - Before Find Element --->By.id: class
+20:09:59.611 INFO  manager.WDListener - After Find Element --->By.id: class
+20:09:59.626 INFO  manager.WDListener - After Find Element --->(172, 944)
+20:09:59.658 INFO  manager.WDListener - Before click element --->inputtext
+20:09:59.768 INFO  manager.WDListener - After click element --->inputtext
+20:09:59.862 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:59.925 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:59.988 INFO  manager.WDListener - sendKeys --->inputtext
+20:09:59.988 INFO  manager.WDListener - Before Find Element --->By.id: serialNumber
+20:10:00.003 INFO  manager.WDListener - After Find Element --->By.id: serialNumber
+20:10:00.019 INFO  manager.WDListener - After Find Element --->(172, 1021)
+20:10:00.051 INFO  manager.WDListener - Before click element --->inputtext
+20:10:00.160 INFO  manager.WDListener - After click element --->inputtext
+20:10:00.270 INFO  manager.WDListener - sendKeys --->inputtext
+20:10:00.333 INFO  manager.WDListener - sendKeys --->inputtext
+20:10:00.396 INFO  manager.WDListener - sendKeys --->inputtext
+20:10:00.396 INFO  manager.WDListener - Before Find Element --->By.id: price
+20:10:00.427 INFO  manager.WDListener - After Find Element --->By.id: price
+20:10:00.443 INFO  manager.WDListener - After Find Element --->(172, 1097)
+20:10:00.459 INFO  manager.WDListener - Before click element --->inputtext
+20:10:00.569 INFO  manager.WDListener - After click element --->inputtext
+20:10:00.702 INFO  manager.WDListener - sendKeys --->inputtext
+20:10:00.781 INFO  manager.WDListener - sendKeys --->inputtext
+20:10:00.860 INFO  manager.WDListener - sendKeys --->inputtext
+20:10:00.860 INFO  manager.WDListener - Before Find Element --->By.id: about
+20:10:00.875 INFO  manager.WDListener - After Find Element --->By.id: about
+20:10:00.891 INFO  manager.WDListener - After Find Element --->(172, 1215)
+20:10:00.907 INFO  manager.WDListener - Before click element --->textareatext
+20:10:01.028 INFO  manager.WDListener - After click element --->textareatext
+20:10:01.126 INFO  manager.WDListener - sendKeys --->textareatext
+20:10:01.185 INFO  manager.WDListener - sendKeys --->textareatext
+20:10:01.262 INFO  manager.WDListener - sendKeys --->textareatext
+20:10:01.263 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+20:10:01.281 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+20:10:01.298 INFO  manager.WDListener - After Find Element --->(172, 1607)
+20:10:01.323 INFO  manager.WDListener - Before click element --->buttontextSubmit
+20:10:01.449 INFO  manager.WDListener - After click element --->buttontextSubmit
+20:10:04.464 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+20:10:04.482 INFO  manager.WDListener - After Find Element --->By.cssSelector: .dialog-container>h2
+20:10:04.497 INFO  manager.WDListener - After Find Element --->(829, 443)
+20:10:04.510 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text()='Search cars']
+20:10:04.531 INFO  manager.WDListener - After Find Element --->By.xpath: //button[text()='Search cars']
+20:10:04.548 INFO  manager.WDListener - After Find Element --->(931, 480)
+20:10:04.569 INFO  manager.WDListener - Before click element --->buttontext
+20:10:04.669 INFO  manager.WDListener - After click element --->buttontext
+20:10:04.669 INFO  tests.TestBase - ==================================================

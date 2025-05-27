@@ -1,0 +1,23 @@
+18:10:00.655 INFO  manager.ApplicationManager - All tests runs in Chrome Browser
+18:10:02.010 INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+18:10:02.044 INFO  tests.TestBase - Name of Method --->loginSuccess
+18:10:08.062 INFO  tests.TestBase - Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa!1234'
+18:10:10.264 INFO  tests.TestBase - Assert check message 'Logged in success'
+18:10:10.415 INFO  tests.TestBase - Name of Method --->loginSuccessModel
+18:10:10.616 INFO  tests.TestBase - Before method finish logout
+18:10:11.510 INFO  tests.TestBase - Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa!1234'
+18:10:13.662 INFO  tests.TestBase - Assert check alert message 'Logged in success'
+18:10:13.788 INFO  tests.TestBase - Name of Method --->loginSuccessObject
+18:10:13.951 INFO  tests.TestBase - Before method finish logout
+18:10:14.812 INFO  tests.TestBase - Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa!1234'
+18:10:16.974 INFO  tests.TestBase - Assert check message 'Logged in success'
+18:10:17.081 INFO  tests.TestBase - Name of Method --->loginUnregisteredUser
+18:10:17.222 INFO  tests.TestBase - Before method finish logout
+18:10:17.994 INFO  tests.TestBase - Test data ---> email: '0535592367vi@gmail.com' & password: 'vilevinQa!1234'
+18:10:20.167 INFO  tests.TestBase - Assert check alert message 'Login or Password incorrect'
+18:10:20.299 INFO  tests.TestBase - Name of Method --->loginWrongEmail
+18:10:26.223 INFO  tests.TestBase - Test data ---> email: 'testest12gmail.com' & password: 'vilevinQa!1234'
+18:10:26.368 INFO  tests.TestBase - Assert check alert message 'It'snot look like email'
+18:10:31.456 INFO  tests.TestBase - Name of Method --->loginWrongPassword
+18:10:37.449 INFO  tests.TestBase - Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa1234'
+18:10:39.599 INFO  tests.TestBase - Assert check alert message 'Login or Password incorrect'
