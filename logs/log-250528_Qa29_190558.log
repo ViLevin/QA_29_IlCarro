@@ -1,0 +1,36 @@
+19:06:01.351 INFO  manager.ApplicationManager - All tests runs in Chrome Browser
+19:06:03.245 INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+19:06:03.257 INFO  manager.TestNGListener - Start testing on date ---> Wed May 28 19:06:03 IDT 2025
+19:06:03.284 INFO  tests.TestBase - Name of Method --->searchCurrentYearSuccess
+19:06:03.286 INFO  manager.TestNGListener - Start testsearchCurrentYearSuccess
+19:06:03.287 INFO  manager.WDListener - Before Find Element --->By.id: city
+19:06:03.329 INFO  manager.WDListener - After Find Element --->By.id: city
+19:06:03.351 INFO  manager.WDListener - After Find Element --->(192, 253)
+19:06:03.388 INFO  manager.WDListener - Before click element --->inputtext
+19:06:03.532 INFO  manager.WDListener - After click element --->inputtext
+19:06:03.666 INFO  manager.WDListener - sendKeys --->inputtext
+19:06:03.737 INFO  manager.WDListener - sendKeys --->inputtext
+19:06:03.822 INFO  manager.WDListener - sendKeys --->inputtext
+19:06:03.823 INFO  manager.WDListener - Before Find Element --->By.cssSelector: div.pac-item
+19:06:04.455 INFO  manager.WDListener - After Find Element --->By.cssSelector: div.pac-item
+19:06:04.474 INFO  manager.WDListener - After Find Element --->(0, 0)
+19:06:04.499 INFO  manager.WDListener - Before click element --->divtext
+19:06:09.581 INFO  manager.WDListener - Huston, we have a problem!
+19:06:09.581 INFO  manager.WDListener - ********************
+19:06:09.582 INFO  manager.WDListener - Object target  ---> [[ChromeDriver: chrome on windows (dd72b10e9a0ef4786f76336447b7f40a)] -> css selector: div.pac-item]
+19:06:09.582 INFO  manager.WDListener - ********************
+19:06:09.582 INFO  manager.WDListener - Method name --->public abstract void org.openqa.selenium.WebElement.click()
+19:06:09.582 INFO  manager.WDListener - ********************
+19:06:09.584 INFO  manager.WDListener - InvocationTargetException --->org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=137.0.7151.55)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd72b10e9a0ef4786f76336447b7f40a, clickElement {id=f.57C19157584E6927DCF9A186A0394ABD.d.9C9470C8AC43F437419C3B65C52CA40C.e.22}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.55, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59632/devtoo..., se:cdpVersion: 137.0.7151.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (dd72b10e9a0ef4786f76336447b7f40a)] -> css selector: div.pac-item]
+Session ID: dd72b10e9a0ef4786f76336447b7f40a
+19:06:09.585 INFO  manager.WDListener - ********************
+19:06:09.593 INFO  manager.TestNGListener - Fail testsearchCurrentYearSuccess
+19:06:09.598 INFO  tests.TestBase - ==================================================
+19:06:09.600 INFO  manager.TestNGListener - Finish testing on date ---> Wed May 28 19:06:09 IDT 2025

@@ -1,0 +1,21 @@
+19:55:07.697 INFO  manager.ApplicationManager - All tests runs in Chrome Browser
+19:55:09.721 INFO  manager.ApplicationManager - The link --->https://ilcarro.web.app/search
+19:55:09.734 INFO  manager.TestNGListener - Start testing on date ---> Wed May 28 19:55:09 IDT 2025
+19:55:09.762 INFO  tests.TestBase - Name of Method --->searchCurrentYearSuccess
+19:55:09.764 INFO  manager.TestNGListener - Start testsearchCurrentYearSuccess
+19:55:09.765 INFO  manager.WDListener - Before Find Element --->By.id: city
+19:55:09.812 INFO  manager.WDListener - After Find Element --->By.id: city
+19:55:09.836 INFO  manager.WDListener - After Find Element --->(192, 253)
+19:55:09.869 INFO  manager.WDListener - Before click element --->inputtext
+19:55:10.017 INFO  manager.WDListener - After click element --->inputtext
+19:55:10.146 INFO  manager.WDListener - sendKeys --->inputtext
+19:55:10.223 INFO  manager.WDListener - sendKeys --->inputtext
+19:55:10.313 INFO  manager.WDListener - sendKeys --->inputtext
+19:55:10.314 INFO  manager.WDListener - Before Find Element --->By.id: dates
+19:55:10.349 INFO  manager.WDListener - After Find Element --->By.id: dates
+19:55:10.365 INFO  manager.WDListener - After Find Element --->(192, 330)
+19:55:10.391 INFO  manager.WDListener - Before click element --->inputtext
+19:55:10.582 INFO  manager.WDListener - After click element --->inputtext
+19:55:10.586 INFO  manager.TestNGListener - Fail testsearchCurrentYearSuccess
+19:55:10.588 INFO  tests.TestBase - ==================================================
+19:55:10.593 INFO  manager.TestNGListener - Finish testing on date ---> Wed May 28 19:55:10 IDT 2025
