@@ -58,6 +58,11 @@ public class HelperCar extends HelperBase {
 
     private void typeLocation(String location) {
         type(By.id("pickUpPlace"), location);
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         click(By.cssSelector("div.pac-item"));
 //        type(By.id("pickUpPlace"), location);
 //        click(By.cssSelector("div.pac-item"));
@@ -101,6 +106,12 @@ public class HelperCar extends HelperBase {
 
     private void typeCity(String city) {
         type(By.id("city"), city);
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+//        pause(10000);
         click(By.cssSelector("div.pac-item"));
     }
 
@@ -110,7 +121,7 @@ public class HelperCar extends HelperBase {
 
 
     public void searchCurrentYear(String city, String dateFrom, String dateTo) {
-        type(By.id("city"), city);
+        typeCity(city);
         click(By.id("dates"));
 //        "7/3/2025","11/15/2025"
         LocalDate now = LocalDate.now(); //2025-05-28
@@ -120,9 +131,10 @@ public class HelperCar extends HelperBase {
         int month = now.getMonthValue();
         int day = now.getDayOfMonth();
 
-        LocalDate from = LocalDate.parse(dateFrom, DateTimeFormatter.ofPattern("M/d//yyyy"));
+        LocalDate from = LocalDate.parse(dateFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
         System.out.println(from);
-        LocalDate to = LocalDate.parse(dateTo, DateTimeFormatter.ofPattern("M/d//yyyy"));
+        LocalDate to = LocalDate.parse(dateTo, DateTimeFormatter.ofPattern("M/d/yyyy"));
+        System.out.println(to);
 
         int diffMonth = from.getMonthValue() - month;
         if (diffMonth > 0) {
@@ -144,4 +156,44 @@ public class HelperCar extends HelperBase {
             click(By.xpath("//button[@aria-label = 'Next month']"));
         }
     }
+
+    public void searchAnyPeriod(String city, String dateFrom, String dateTo) {
+        typeCity(city);
+        click(By.id("dates"));
+//        "10/09/2025", "3/8/2026"
+        LocalDate now = LocalDate.now();
+        System.out.println(now);
+        int year = now.getYear();
+        int month = now.getMonthValue();
+        int day = now.getDayOfMonth();
+        LocalDate from = LocalDate.parse(dateFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
+        System.out.println(from);
+        LocalDate to = LocalDate.parse(dateTo, DateTimeFormatter.ofPattern("M/d/yyyy"));
+        System.out.println(to);
+
+        int difYearF = from.getYear() - year;
+        int difMonthF;
+        if (difYearF > 0) {
+            difMonthF = (int) (from.getMonthValue()) + ((12) - now.getMonthValue());
+            clickNextMonthBtn(difMonthF);
+        } else {
+            difMonthF = from.getMonthValue() - now.getMonthValue();
+            clickNextMonthBtn(difMonthF);
+        }
+
+        click(By.xpath("//div[text()=' " + from.getDayOfMonth() + " ']"));
+
+        int difYearT = to.getYear() - year;
+        int diffMonthTo;
+        if (difYearT > 0) {
+            diffMonthTo = (int) (from.getMonthValue()) + ((12) - now.getMonthValue());
+            clickNextMonthBtn(diffMonthTo);
+        }
+        diffMonthTo = to.getMonthValue() - from.getMonthValue();
+        clickNextMonthBtn(diffMonthTo);
+
+        click(By.xpath("//div[text()=' " + from.getDayOfMonth() + " ']"));
+    }
+
+
 }
