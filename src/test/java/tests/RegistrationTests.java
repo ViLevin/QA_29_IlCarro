@@ -34,13 +34,15 @@ public class RegistrationTests extends TestBase {
         User user = new User()
                 .setFirstName("Lisa")
                 .setLastName("Snow")
-                .setEmail("snow" + z+z + "@gmail.com")
+                .setEmail("snow" + z + z + "@gmail.com")
                 .setPassword("Ssnow12345$");
 
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
+        logger.info("TEST DATA: -->" + user.toString());
 
         app.getHelperUser().checkPolicyXY();
+        app.getHelperCar().getScreen("src/test/screenshots" + i + ".png");
         app.getHelperUser().submit();
 
         Assert.assertEquals(app.getHelperUser().getMessage(), "You are logged in success");

@@ -17,7 +17,7 @@ public class AddNewCarTestsSubmit extends TestBase {
 //    login app.getHelperUser().login(new User().setEmail("test12@gmail.com").setPassword("vilevinQa!1234"));
     public void preCondition() {
         if (!app.getHelperUser().isLogged()) {
-            app.getHelperUser().login(new User().setEmail("test12@gmail.com").setPassword("vilevinQa!1234"));
+            app.getHelperUser().loginModel(new User().setEmail("test12@gmail.com").setPassword("vilevinQa!1234"));
         }
     }
 
@@ -45,7 +45,7 @@ public class AddNewCarTestsSubmit extends TestBase {
         app.getHelperCar().fillCarForm(car);
         app.getHelperCar().attachPhoto("D:\\Vi\\QA_Auto\\QA_29_LV_IlCarro\\DeLorean.jpg");
         app.getHelperCar().submit();
-        app.getHelperCar().getScreen("src/test/screenshots"+i+".png");
+        app.getHelperCar().getScreen("src/test/screenshots" + i + ".png");
         app.getHelperUser().pause(1000);
 
         Assert.assertTrue(app.getHelperUser().getMessage().contains("added successful"));

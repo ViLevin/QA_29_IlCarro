@@ -24,7 +24,7 @@ public class AddNewCarUnsubmit extends TestBase {
 //    login app.getHelperUser().login(new User().setEmail("test12@gmail.com").setPassword("vilevinQa!1234"));
     public void preCondition() {
         if (!app.getHelperUser().isLogged()) {
-            app.getHelperUser().login(new User().setEmail("test12@gmail.com").setPassword("vilevinQa!1234"));
+            app.getHelperUser().loginModel(new User().setEmail("test12@gmail.com").setPassword("vilevinQa!1234"));
         }
     }
 
@@ -73,6 +73,7 @@ public class AddNewCarUnsubmit extends TestBase {
 
         app.getHelperCar().openCarForm();
         app.getHelperCar().fillCarForm(car);
+
         app.getHelperCar().submit();
 
 

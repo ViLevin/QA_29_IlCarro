@@ -12,18 +12,25 @@ public class HelperUser extends HelperBase {
     }
 
     public void openLoginForm() {
+
         click(By.xpath("//a [text()=' Log in ']"));
     }
 
 
     public void fillLoginForm(String email, String password) {
+        pause(1000);
         type(By.id("email"), email);
+        pause(3000);
         type(By.id("password"), password);
+        pause(3000);
     }
 
-    public void fillLoginForm(User user) {
+    public void fillLoginFormObj(User user) {
+        pause(1000);
         type(By.id("email"), user.getEmail());
+        pause(3000);
         type(By.id("password"), user.getPassword());
+        pause(3000);
     }
 
     public boolean isLogged() {
@@ -100,9 +107,17 @@ public class HelperUser extends HelperBase {
     }
 
 
-    public void login(User user) {
+    public void loginData(String email, String password) {
         openLoginForm();
-        fillLoginForm(user);
+        fillLoginForm(email, password);
+        submit();
+        clickOkButton();
+
+    }
+
+    public void loginModel(User user) {
+        openLoginForm();
+        fillLoginFormObj(user);
         submit();
         clickOkButton();
 

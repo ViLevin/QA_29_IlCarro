@@ -1,10 +1,16 @@
 package tests;
 
+import manager.DataProviderUser;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 public class LoginTests extends TestBase {
 
@@ -18,18 +24,17 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test
-    public void loginSuccessObject() {
-
+    @Test(dataProvider = "loginModels", dataProviderClass = DataProviderUser.class)
+    public void loginSuccessObject(User user) {
+        int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
 //        logger.info("Start test with name'loginSuccessObject'");
-        logger.info("Start");
-
-        User user = new User().setEmail("test12@gmail.com").setPassword("vilevinQa!1234");
-
+//        logger.info("Start");
+//        User user = new User().setEmail("test12@gmail.com").setPassword("vilevinQa!1234");
         app.getHelperUser().openLoginForm();
-        app.getHelperUser().fillLoginForm(user);
-        logger.info("Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa!1234'");
+        app.getHelperUser().fillLoginFormObj(user);
+        logger.info("TEST DATA  - - - >  " + user.toString());
         app.getHelperUser().submit();
+        app.getHelperCar().getScreen("src/test/screenshots" + i + ".png");
         //Assert if element with text "Logged in success" is present
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
 
@@ -40,24 +45,30 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test
-    public void loginSuccess() {
+    @Test(dataProvider = "loginData", dataProviderClass = DataProviderUser.class)
+    public void loginSuccess(String email, String password) {
+        int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
         app.getHelperUser().openLoginForm();
-        app.getHelperUser().fillLoginForm("test12@gmail.com", "vilevinQa!1234");
-        logger.info("Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa!1234'");
+        app.getHelperUser().fillLoginForm(email, password);
+        logger.info("TEST DATA  - - - >   email: " + email + " password: " + password);
+
         app.getHelperUser().submit();
+        app.getHelperCar().getScreen("src/test/screenshots" + i + ".png");
         //Assert if element with text "Logged in success" is present
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
 
         logger.info("Assert check message 'Logged in success'");
     }
 
-    @Test
-    public void loginSuccessModel() {
+
+    @Test(dataProvider = "loginModels", dataProviderClass = DataProviderUser.class)
+    public void loginSuccessModel(User user) {
+        int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
         app.getHelperUser().openLoginForm();
-        app.getHelperUser().fillLoginForm("test12@gmail.com", "vilevinQa!1234");
-        logger.info("Test data ---> email: 'test12@gmail.com' & password: 'vilevinQa!1234'");
+        app.getHelperUser().fillLoginFormObj(user);
+        logger.info("TEST DATA  - - - >  " + user.toString());
         app.getHelperUser().submit();
+        app.getHelperCar().getScreen("src/test/screenshots" + i + ".png");
         //Assert if element with text "Logged in success" is present
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
 
