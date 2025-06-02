@@ -26,4 +26,5 @@ public class SearchCarTests extends TestBase {
         Assert.assertTrue(app.getHelperCar().isListOfCarsAppeared());
     }
 
+
 }
