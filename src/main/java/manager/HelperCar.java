@@ -92,8 +92,9 @@ public class HelperCar extends HelperBase {
 
     public void searchCurrentMonth(String city, String dateFrom, String dateTo) {
         typeCity(city);
+        clearTextBox(By.id("dates"));
         click(By.id("dates"));
-//        "6/29/2025","6/31/2025"===> 29 & 31
+//        "6/6/2025","6/31/2025"===> 29 & 31
         String[] from = dateFrom.split("/"); // [5][29][2025]  ---> from[1]
         String locatorFrom = "//div[text()=' " + from[1] + " ']";
         click(By.xpath(locatorFrom));
@@ -105,7 +106,9 @@ public class HelperCar extends HelperBase {
     }
 
     private void typeCity(String city) {
+        clearTextBox(By.id("city"));
         type(By.id("city"), city);
+        clearTextBox(By.id("dates"));
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
@@ -121,7 +124,9 @@ public class HelperCar extends HelperBase {
 
 
     public void searchCurrentYear(String city, String dateFrom, String dateTo) {
+        clearTextBox(By.id("city"));
         typeCity(city);
+        clearTextBox(By.id("dates"));
         click(By.id("dates"));
 //        "7/3/2025","11/15/2025"
         LocalDate now = LocalDate.now(); //2025-05-28
@@ -158,6 +163,7 @@ public class HelperCar extends HelperBase {
     }
 
     public void searchAnyPeriod(String city, String dateFrom, String dateTo) {
+        clearTextBox(By.id("city"));
         typeCity(city);
         click(By.id("dates"));
 //        "10/09/2025", "3/8/2026"
@@ -196,4 +202,19 @@ public class HelperCar extends HelperBase {
     }
 
 
+    public void navigateByLogo() {
+        click(By.cssSelector("a.logo"));
+    }
+
+    public void searchNotValidPeriod(String city, String dateFrom, String dateTo) {
+        typeCity(city);
+        clearTextBox(By.id("dates"));
+        type(By.id("dates"), dateFrom + "-" + dateTo);
+        click(By.cssSelector("cdk-overlay-backdrop"));
+
+    }
+
+    public String getErrorText() {
+        return wd.findElement(By.cssSelector("div.error")).getText();
+    }
 }
