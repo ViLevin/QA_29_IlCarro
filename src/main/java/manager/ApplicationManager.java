@@ -25,7 +25,7 @@ public class ApplicationManager {
         wd = new EventFiringDecorator(webDriverListener).decorate(wd);
 
         wd.navigate().to("https://ilcarro.web.app");
-        logger.info("The link --->" +wd.getCurrentUrl());
+        logger.info("The link is --->" +wd.getCurrentUrl());
         helperUser = new HelperUser(wd);
         helperCar = new HelperCar(wd);
 
