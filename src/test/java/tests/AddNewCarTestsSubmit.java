@@ -1,9 +1,8 @@
 package tests;
 
+import manager.DataProviderCar;
 import models.Car;
 import models.User;
-
-import org.checkerframework.checker.units.qual.A;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -112,6 +111,21 @@ public class AddNewCarTestsSubmit extends TestBase {
 
 //        Assert.assertEquals("Price is required", app.getHelperUser().getErrorText());   ---> bug?
 //        Assert.assertFalse(app.getHelperUser().isYallaBtnNotActive());
+        Assert.assertTrue(app.getHelperUser().getMessage().contains("added successful"));
+        Assert.assertEquals(app.getHelperUser().getMessage(), car.getManufactura() + " " + car.getModel() + " " + "added successful");
+        logger.info("End");
+    }
+
+    @Test(dataProvider = "contactWrongPrice", dataProviderClass = DataProviderCar.class)
+    public void addNewCarWrongPriceCSV(Car car) {
+        logger.info("Start");
+        int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
+        app.getHelperCar().openCarForm();
+        app.getHelperCar().fillCarForm(car);
+        app.getHelperCar().getScreen("src/test/screenshots/tests" + i + ".png");
+        app.getHelperCar().submit();
+        app.getHelperUser().pause(1000);
+
         Assert.assertTrue(app.getHelperUser().getMessage().contains("added successful"));
         Assert.assertEquals(app.getHelperUser().getMessage(), car.getManufactura() + " " + car.getModel() + " " + "added successful");
         logger.info("End");

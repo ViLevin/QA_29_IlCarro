@@ -42,7 +42,7 @@ public class RegistrationTests extends TestBase {
         logger.info("TEST DATA: -->" + user.toString());
 
         app.getHelperUser().checkPolicyXY();
-        app.getHelperCar().getScreen("src/test/screenshots" + i + ".png");
+        app.getHelperCar().getScreen("src/test/screenshots/registration" + i + ".png");
         app.getHelperUser().submit();
 
         Assert.assertEquals(app.getHelperUser().getMessage(), "You are logged in success");

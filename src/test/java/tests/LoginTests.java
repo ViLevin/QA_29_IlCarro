@@ -73,9 +73,22 @@ public class LoginTests extends TestBase {
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
 
         logger.info("Assert check alert message 'Logged in success'");
-
-
     }
+
+    @Test(dataProvider = "loginFile", dataProviderClass = DataProviderUser.class)
+    public void loginSuccessDPF(User user) {
+        int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
+        app.getHelperUser().openLoginForm();
+        app.getHelperUser().fillLoginFormObj(user);
+        logger.info("TEST DATA  - - - >  " + user.toString());
+        app.getHelperUser().submit();
+        app.getHelperCar().getScreen("src/test/screenshots/logDFPposit" + i + ".png");
+        //Assert if element with text "Logged in success" is present
+        Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
+
+        logger.info("Assert check alert message 'Logged in success'");
+    }
+
 
     @Test
     public void loginWrongEmail() {
