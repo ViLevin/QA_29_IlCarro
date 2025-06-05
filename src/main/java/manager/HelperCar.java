@@ -29,6 +29,7 @@ public class HelperCar extends HelperBase {
         if (car.getLocation() != null && !car.getLocation().trim().isEmpty()) {
             typeLocation(car.getLocation());
         }
+
         type(By.id("make"), car.getManufactura());
         type(By.id("model"), car.getModel());
         type(By.id("year"), car.getYear());
@@ -117,6 +118,7 @@ public class HelperCar extends HelperBase {
         click(By.id("dates"));
 //        "7/3/2025","11/15/2025"
         LocalDate now = LocalDate.now(); //2025-05-28
+
         System.out.println(now);
 
         int year = now.getYear();
