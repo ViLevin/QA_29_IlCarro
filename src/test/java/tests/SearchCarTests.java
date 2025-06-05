@@ -6,6 +6,8 @@ import org.testng.annotations.Test;
 
 import java.util.Random;
 
+import java.util.Random;
+
 public class SearchCarTests extends TestBase {
 
     @Test
