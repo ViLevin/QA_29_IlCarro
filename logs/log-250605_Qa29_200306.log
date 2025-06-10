@@ -1,0 +1,277 @@
+20:03:10.587 INFO  manager.ApplicationManager - All tests runs in Chrome Browser
+20:03:12.508 INFO  manager.ApplicationManager - The link is --->https://ilcarro.web.app/search
+20:03:12.521 INFO  manager.TestNGListener - Start testing on date ---> Thu Jun 05 20:03:12 IDT 2025
+20:03:12.547 INFO  tests.TestBase - Name of Method --->negativeSearch
+20:03:12.549 INFO  manager.TestNGListener - Start testnegativeSearch
+20:03:12.550 INFO  manager.WDListener - Before Find Element --->By.id: city
+20:03:12.593 INFO  manager.WDListener - After Find Element --->By.id: city
+20:03:12.613 INFO  manager.WDListener - After Find Element --->(192, 253)
+20:03:12.749 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:12.814 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:12.815 INFO  manager.WDListener - Before Find Element --->By.id: city
+20:03:12.845 INFO  manager.WDListener - After Find Element --->By.id: city
+20:03:12.867 INFO  manager.WDListener - After Find Element --->(192, 253)
+20:03:12.892 INFO  manager.WDListener - Before click element --->inputtext
+20:03:13.015 INFO  manager.WDListener - After click element --->inputtext
+20:03:13.125 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:13.187 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:13.263 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:18.277 INFO  manager.WDListener - Before Find Element --->By.cssSelector: div.pac-item
+20:03:18.309 INFO  manager.WDListener - After Find Element --->By.cssSelector: div.pac-item
+20:03:18.324 INFO  manager.WDListener - After Find Element --->(192, 301)
+20:03:18.340 INFO  manager.WDListener - Before click element --->divtextTel AvivIsrael
+20:03:18.456 INFO  manager.WDListener - Before Find Element --->By.id: dates
+20:03:18.491 INFO  manager.WDListener - After Find Element --->By.id: dates
+20:03:18.507 INFO  manager.WDListener - After Find Element --->(192, 349)
+20:03:18.594 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:18.644 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:18.644 INFO  manager.WDListener - Before Find Element --->By.id: dates
+20:03:18.677 INFO  manager.WDListener - After Find Element --->By.id: dates
+20:03:18.693 INFO  manager.WDListener - After Find Element --->(192, 330)
+20:03:18.710 INFO  manager.WDListener - Before click element --->inputtext
+20:03:18.906 INFO  manager.WDListener - After click element --->inputtext
+20:03:19.033 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:19.095 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:19.192 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:19.192 INFO  manager.WDListener - Before Find Element --->By.cssSelector: div.cdk-overlay-backdrop
+20:03:19.225 INFO  manager.WDListener - After Find Element --->By.cssSelector: div.cdk-overlay-backdrop
+20:03:19.241 INFO  manager.WDListener - After Find Element --->(0, 0)
+20:03:19.263 INFO  manager.WDListener - Before click element --->divtext
+20:03:19.359 INFO  manager.WDListener - After click element --->divtext
+20:03:19.359 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+20:03:19.392 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+20:03:19.409 INFO  manager.WDListener - After Find Element --->(192, 413)
+20:03:19.425 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+20:03:19.526 INFO  manager.WDListener - After click element --->buttontextY’alla!
+20:03:19.569 INFO  manager.WDListener - Before Find Element --->By.cssSelector: button[type = 'submit']
+20:03:19.595 INFO  manager.WDListener - After Find Element --->By.cssSelector: button[type = 'submit']
+20:03:19.608 INFO  manager.WDListener - After Find Element --->(192, 413)
+20:03:19.624 INFO  manager.WDListener - Before Find Element --->By.cssSelector: div.error
+20:03:19.642 INFO  manager.WDListener - After Find Element --->By.cssSelector: div.error
+20:03:19.657 INFO  manager.WDListener - After Find Element --->(192, 376)
+20:03:19.676 INFO  manager.TestNGListener - Success testnegativeSearch
+20:03:19.676 INFO  manager.WDListener - Before Find Element --->By.cssSelector: a.logo
+20:03:19.696 INFO  manager.WDListener - After Find Element --->By.cssSelector: a.logo
+20:03:19.711 INFO  manager.WDListener - After Find Element --->(192, 16)
+20:03:19.741 INFO  manager.WDListener - Before click element --->atext
+20:03:20.108 INFO  tests.TestBase - ==================================================
+20:03:20.111 INFO  tests.TestBase - Name of Method --->searchAnyPeriodSuccess
+20:03:20.111 INFO  manager.TestNGListener - Start testsearchAnyPeriodSuccess
+20:03:20.364 INFO  manager.WDListener - Before Find Element --->By.id: city
+20:03:20.377 INFO  manager.WDListener - After Find Element --->By.id: city
+20:03:20.402 INFO  manager.WDListener - After Find Element --->(192, 253)
+20:03:20.493 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:20.543 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:20.543 INFO  manager.WDListener - Before Find Element --->By.id: city
+20:03:20.560 INFO  manager.WDListener - After Find Element --->By.id: city
+20:03:20.577 INFO  manager.WDListener - After Find Element --->(192, 253)
+20:03:20.611 INFO  manager.WDListener - Before click element --->inputtext
+20:03:20.710 INFO  manager.WDListener - After click element --->inputtext
+20:03:20.818 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:20.882 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:20.954 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:25.958 INFO  manager.WDListener - Before Find Element --->By.cssSelector: div.pac-item
+20:03:25.974 INFO  manager.WDListener - After Find Element --->By.cssSelector: div.pac-item
+20:03:25.990 INFO  manager.WDListener - After Find Element --->(192, 301)
+20:03:26.005 INFO  manager.WDListener - Before click element --->divtextTel AvivIsrael
+20:03:26.102 INFO  manager.WDListener - Before Find Element --->By.id: dates
+20:03:26.121 INFO  manager.WDListener - After Find Element --->By.id: dates
+20:03:26.125 INFO  manager.WDListener - After Find Element --->(192, 349)
+20:03:26.225 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:26.277 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:26.277 INFO  manager.WDListener - Before Find Element --->By.id: dates
+20:03:26.309 INFO  manager.WDListener - After Find Element --->By.id: dates
+20:03:26.311 INFO  manager.WDListener - After Find Element --->(192, 330)
+20:03:26.345 INFO  manager.WDListener - Before click element --->inputtext
+20:03:26.475 INFO  manager.WDListener - After click element --->inputtext
+20:03:26.475 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:26.509 INFO  manager.WDListener - After Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:26.525 INFO  manager.WDListener - After Find Element --->(442, 397)
+20:03:26.542 INFO  manager.WDListener - Before click element --->buttontext
+20:03:26.675 INFO  manager.WDListener - After click element --->buttontext
+20:03:26.675 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:26.692 INFO  manager.WDListener - After Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:26.709 INFO  manager.WDListener - After Find Element --->(442, 398)
+20:03:26.742 INFO  manager.WDListener - Before click element --->buttontext
+20:03:26.860 INFO  manager.WDListener - After click element --->buttontext
+20:03:26.860 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:26.875 INFO  manager.WDListener - After Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:26.892 INFO  manager.WDListener - After Find Element --->(442, 398)
+20:03:26.908 INFO  manager.WDListener - Before click element --->buttontext
+20:03:27.025 INFO  manager.WDListener - After click element --->buttontext
+20:03:27.025 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:27.042 INFO  manager.WDListener - After Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:27.059 INFO  manager.WDListener - After Find Element --->(442, 398)
+20:03:27.076 INFO  manager.WDListener - Before click element --->buttontext
+20:03:27.192 INFO  manager.WDListener - After click element --->buttontext
+20:03:27.192 INFO  manager.WDListener - Before Find Element --->By.xpath: //div[text()=' 9 ']
+20:03:27.226 INFO  manager.WDListener - After Find Element --->By.xpath: //div[text()=' 9 ']
+20:03:27.241 INFO  manager.WDListener - After Find Element --->(362, 523)
+20:03:27.260 INFO  manager.WDListener - Before click element --->divtext9
+20:03:27.358 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:27.375 INFO  manager.WDListener - After Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:27.392 INFO  manager.WDListener - After Find Element --->(442, 398)
+20:03:27.409 INFO  manager.WDListener - Before click element --->buttontext
+20:03:27.533 INFO  manager.WDListener - After click element --->buttontext
+20:03:27.534 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:27.541 INFO  manager.WDListener - After Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:27.558 INFO  manager.WDListener - After Find Element --->(442, 398)
+20:03:27.575 INFO  manager.WDListener - Before click element --->buttontext
+20:03:27.698 INFO  manager.WDListener - After click element --->buttontext
+20:03:27.698 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:27.716 INFO  manager.WDListener - After Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:27.732 INFO  manager.WDListener - After Find Element --->(442, 398)
+20:03:27.753 INFO  manager.WDListener - Before click element --->buttontext
+20:03:27.863 INFO  manager.WDListener - After click element --->buttontext
+20:03:27.863 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:27.881 INFO  manager.WDListener - After Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:27.895 INFO  manager.WDListener - After Find Element --->(442, 398)
+20:03:27.918 INFO  manager.WDListener - Before click element --->buttontext
+20:03:28.030 INFO  manager.WDListener - After click element --->buttontext
+20:03:28.030 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:28.047 INFO  manager.WDListener - After Find Element --->By.xpath: //button[@aria-label='Next month']
+20:03:28.062 INFO  manager.WDListener - After Find Element --->(442, 398)
+20:03:28.083 INFO  manager.WDListener - Before click element --->buttontext
+20:03:28.197 INFO  manager.WDListener - After click element --->buttontext
+20:03:28.197 INFO  manager.WDListener - Before Find Element --->By.xpath: //div[text()=' 9 ']
+20:03:28.214 INFO  manager.WDListener - After Find Element --->By.xpath: //div[text()=' 9 ']
+20:03:28.228 INFO  manager.WDListener - After Find Element --->(242, 563)
+20:03:28.248 INFO  manager.WDListener - Before click element --->divtext9
+20:03:28.378 INFO  manager.WDListener - After click element --->divtext
+20:03:28.856 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+20:03:28.874 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+20:03:28.888 INFO  manager.WDListener - After Find Element --->(192, 393)
+20:03:28.908 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+20:03:40.920 INFO  manager.TestNGListener - Success testsearchAnyPeriodSuccess
+20:03:40.920 INFO  manager.WDListener - Before Find Element --->By.cssSelector: a.logo
+20:03:40.952 INFO  manager.WDListener - After Find Element --->By.cssSelector: a.logo
+20:03:40.952 INFO  manager.WDListener - After Find Element --->(192, 16)
+20:03:40.983 INFO  manager.WDListener - Before click element --->atext
+20:03:41.375 INFO  tests.TestBase - ==================================================
+20:03:41.375 INFO  tests.TestBase - Name of Method --->searchCurrentMonthSuccess
+20:03:41.375 INFO  manager.TestNGListener - Start testsearchCurrentMonthSuccess
+20:03:41.613 INFO  manager.WDListener - Before Find Element --->By.id: city
+20:03:41.632 INFO  manager.WDListener - After Find Element --->By.id: city
+20:03:41.646 INFO  manager.WDListener - After Find Element --->(192, 253)
+20:03:41.728 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:41.787 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:41.787 INFO  manager.WDListener - Before Find Element --->By.id: city
+20:03:41.802 INFO  manager.WDListener - After Find Element --->By.id: city
+20:03:41.817 INFO  manager.WDListener - After Find Element --->(192, 253)
+20:03:41.838 INFO  manager.WDListener - Before click element --->inputtext
+20:03:41.938 INFO  manager.WDListener - After click element --->inputtext
+20:03:42.029 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:42.088 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:42.158 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:47.162 INFO  manager.WDListener - Before Find Element --->By.cssSelector: div.pac-item
+20:03:47.178 INFO  manager.WDListener - After Find Element --->By.cssSelector: div.pac-item
+20:03:47.178 INFO  manager.WDListener - After Find Element --->(192, 301)
+20:03:47.209 INFO  manager.WDListener - Before click element --->divtextTel AvivIsrael
+20:03:47.299 INFO  manager.WDListener - Before Find Element --->By.id: dates
+20:03:47.315 INFO  manager.WDListener - After Find Element --->By.id: dates
+20:03:47.325 INFO  manager.WDListener - After Find Element --->(192, 330)
+20:03:47.413 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:47.470 INFO  manager.WDListener - sendKeys --->inputtext
+20:03:47.470 INFO  manager.WDListener - Before Find Element --->By.id: dates
+20:03:47.485 INFO  manager.WDListener - After Find Element --->By.id: dates
+20:03:47.499 INFO  manager.WDListener - After Find Element --->(192, 330)
+20:03:47.520 INFO  manager.WDListener - Before click element --->inputtext
+20:03:47.649 INFO  manager.WDListener - After click element --->inputtext
+20:03:47.649 INFO  manager.WDListener - Before Find Element --->By.xpath: //div[text()=' 6 ']
+20:03:47.670 INFO  manager.WDListener - After Find Element --->By.xpath: //div[text()=' 6 ']
+20:03:47.688 INFO  manager.WDListener - After Find Element --->(402, 516)
+20:03:47.711 INFO  manager.WDListener - Before click element --->divtext6
+20:03:47.819 INFO  manager.WDListener - Before Find Element --->By.xpath: //div[text()=' 25 ']
+20:03:47.843 INFO  manager.WDListener - After Find Element --->By.xpath: //div[text()=' 25 ']
+20:03:47.858 INFO  manager.WDListener - After Find Element --->(322, 643)
+20:03:47.882 INFO  manager.WDListener - Before click element --->divtext25
+20:03:47.996 INFO  manager.WDListener - After click element --->divtext
+20:03:47.997 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+20:03:48.011 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+20:03:48.025 INFO  manager.WDListener - After Find Element --->(192, 393)
+20:03:48.045 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+20:03:48.337 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+20:03:48.353 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+20:03:48.368 INFO  manager.WDListener - After Find Element --->(96, 405)
+20:03:48.390 INFO  manager.WDListener - Before click element --->buttontextSearch
+20:03:48.505 INFO  manager.WDListener - After click element --->buttontextSearch
+20:04:14.235 INFO  manager.TestNGListener - Success testsearchCurrentMonthSuccess
+20:04:14.235 INFO  manager.WDListener - Before Find Element --->By.cssSelector: a.logo
+20:04:14.251 INFO  manager.WDListener - After Find Element --->By.cssSelector: a.logo
+20:04:14.266 INFO  manager.WDListener - After Find Element --->(192, 16)
+20:04:14.282 INFO  manager.WDListener - Before click element --->atext
+20:04:14.693 INFO  tests.TestBase - ==================================================
+20:04:14.694 INFO  tests.TestBase - Name of Method --->searchCurrentYearSuccess
+20:04:14.695 INFO  manager.TestNGListener - Start testsearchCurrentYearSuccess
+20:04:14.695 INFO  manager.WDListener - Before Find Element --->By.id: city
+20:04:14.714 INFO  manager.WDListener - After Find Element --->By.id: city
+20:04:14.728 INFO  manager.WDListener - After Find Element --->(192, 253)
+20:04:14.811 INFO  manager.WDListener - sendKeys --->inputtext
+20:04:14.862 INFO  manager.WDListener - sendKeys --->inputtext
+20:04:14.875 INFO  manager.WDListener - Before Find Element --->By.id: city
+20:04:14.878 INFO  manager.WDListener - After Find Element --->By.id: city
+20:04:14.895 INFO  manager.WDListener - After Find Element --->(192, 253)
+20:04:14.926 INFO  manager.WDListener - Before click element --->inputtext
+20:04:15.042 INFO  manager.WDListener - After click element --->inputtext
+20:04:15.141 INFO  manager.WDListener - sendKeys --->inputtext
+20:04:15.199 INFO  manager.WDListener - sendKeys --->inputtext
+20:04:15.270 INFO  manager.WDListener - sendKeys --->inputtext
+20:04:20.278 INFO  manager.WDListener - Before Find Element --->By.cssSelector: div.pac-item
+20:04:20.294 INFO  manager.WDListener - After Find Element --->By.cssSelector: div.pac-item
+20:04:20.294 INFO  manager.WDListener - After Find Element --->(192, 301)
+20:04:20.325 INFO  manager.WDListener - Before click element --->divtextTel AvivIsrael
+20:04:20.413 INFO  manager.WDListener - Before Find Element --->By.id: dates
+20:04:20.428 INFO  manager.WDListener - After Find Element --->By.id: dates
+20:04:20.441 INFO  manager.WDListener - After Find Element --->(192, 330)
+20:04:20.522 INFO  manager.WDListener - sendKeys --->inputtext
+20:04:20.579 INFO  manager.WDListener - sendKeys --->inputtext
+20:04:20.579 INFO  manager.WDListener - Before Find Element --->By.id: dates
+20:04:20.592 INFO  manager.WDListener - After Find Element --->By.id: dates
+20:04:20.592 INFO  manager.WDListener - After Find Element --->(192, 330)
+20:04:20.623 INFO  manager.WDListener - Before click element --->inputtext
+20:04:20.758 INFO  manager.WDListener - After click element --->inputtext
+20:04:20.759 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[@aria-label='Next month']
+20:04:20.776 INFO  manager.WDListener - After Find Element --->By.xpath: //button[@aria-label='Next month']
+20:04:20.793 INFO  manager.WDListener - After Find Element --->(442, 397)
+20:04:20.809 INFO  manager.WDListener - Before click element --->buttontext
+20:04:20.926 INFO  manager.WDListener - After click element --->buttontext
+20:04:20.926 INFO  manager.WDListener - Before Find Element --->By.xpath: //div[text()=' 3 ']
+20:04:20.959 INFO  manager.WDListener - After Find Element --->By.xpath: //div[text()=' 3 ']
+20:04:20.976 INFO  manager.WDListener - After Find Element --->(362, 523)
+20:04:20.993 INFO  manager.WDListener - Before click element --->divtext3
+20:04:21.093 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[@aria-label='Next month']
+20:04:21.114 INFO  manager.WDListener - After Find Element --->By.xpath: //button[@aria-label='Next month']
+20:04:21.128 INFO  manager.WDListener - After Find Element --->(442, 398)
+20:04:21.143 INFO  manager.WDListener - Before click element --->buttontext
+20:04:21.243 INFO  manager.WDListener - After click element --->buttontext
+20:04:21.259 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[@aria-label='Next month']
+20:04:21.259 INFO  manager.WDListener - After Find Element --->By.xpath: //button[@aria-label='Next month']
+20:04:21.276 INFO  manager.WDListener - After Find Element --->(442, 398)
+20:04:21.309 INFO  manager.WDListener - Before click element --->buttontext
+20:04:21.411 INFO  manager.WDListener - After click element --->buttontext
+20:04:21.411 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[@aria-label='Next month']
+20:04:21.419 INFO  manager.WDListener - After Find Element --->By.xpath: //button[@aria-label='Next month']
+20:04:21.443 INFO  manager.WDListener - After Find Element --->(442, 398)
+20:04:21.459 INFO  manager.WDListener - Before click element --->buttontext
+20:04:21.560 INFO  manager.WDListener - After click element --->buttontext
+20:04:21.560 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[@aria-label='Next month']
+20:04:21.576 INFO  manager.WDListener - After Find Element --->By.xpath: //button[@aria-label='Next month']
+20:04:21.595 INFO  manager.WDListener - After Find Element --->(442, 398)
+20:04:21.609 INFO  manager.WDListener - Before click element --->buttontext
+20:04:21.726 INFO  manager.WDListener - After click element --->buttontext
+20:04:21.726 INFO  manager.WDListener - Before Find Element --->By.xpath: //div[text()=' 3 ']
+20:04:21.726 INFO  manager.WDListener - After Find Element --->By.xpath: //div[text()=' 3 ']
+20:04:21.743 INFO  manager.WDListener - After Find Element --->(242, 523)
+20:04:21.776 INFO  manager.WDListener - Before click element --->divtext3
+20:04:21.878 INFO  manager.WDListener - After click element --->divtext
+20:04:22.340 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+20:04:22.371 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+20:04:22.371 INFO  manager.WDListener - After Find Element --->(192, 393)
+20:04:22.403 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+20:04:32.853 INFO  manager.TestNGListener - Success testsearchCurrentYearSuccess
+20:04:32.854 INFO  manager.WDListener - Before Find Element --->By.cssSelector: a.logo
+20:04:32.869 INFO  manager.WDListener - After Find Element --->By.cssSelector: a.logo
+20:04:32.884 INFO  manager.WDListener - After Find Element --->(192, 16)
+20:04:32.903 INFO  manager.WDListener - Before click element --->atext
+20:04:33.307 INFO  tests.TestBase - ==================================================
+20:04:33.308 INFO  manager.TestNGListener - Finish testing on date ---> Thu Jun 05 20:04:33 IDT 2025

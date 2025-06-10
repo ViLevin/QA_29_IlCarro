@@ -1,0 +1,255 @@
+22:08:31.429 INFO  manager.ApplicationManager - All tests runs in Chrome Browser
+22:08:34.048 INFO  manager.ApplicationManager - The link is --->https://ilcarro.web.app/search
+22:08:34.060 INFO  manager.TestNGListener - Start testing on date ---> Sat Jun 07 22:08:34 IDT 2025
+22:08:34.089 INFO  tests.TestBase - Name of Method --->loginSuccessDPF
+22:08:39.167 INFO  manager.TestNGListener - Start testloginSuccessDPF
+22:08:39.179 INFO  manager.WDListener - Before Find Element --->By.xpath: //a [text()=' Log in ']
+22:08:39.233 INFO  manager.WDListener - After Find Element --->By.xpath: //a [text()=' Log in ']
+22:08:39.261 INFO  manager.WDListener - After Find Element --->(1634, 24)
+22:08:39.304 INFO  manager.WDListener - Before click element --->atextLog in
+22:08:39.477 INFO  manager.WDListener - After click element --->atextLog in
+22:08:40.487 INFO  manager.WDListener - Before Find Element --->By.id: email
+22:08:40.536 INFO  manager.WDListener - After Find Element --->By.id: email
+22:08:40.556 INFO  manager.WDListener - After Find Element --->(1341, 266)
+22:08:40.581 INFO  manager.WDListener - Before click element --->inputtext
+22:08:40.746 INFO  manager.WDListener - After click element --->inputtext
+22:08:40.937 INFO  manager.WDListener - sendKeys --->inputtext
+22:08:41.032 INFO  manager.WDListener - sendKeys --->inputtext
+22:08:41.159 INFO  manager.WDListener - sendKeys --->inputtext
+22:08:44.172 INFO  manager.WDListener - Before Find Element --->By.id: password
+22:08:44.212 INFO  manager.WDListener - After Find Element --->By.id: password
+22:08:44.238 INFO  manager.WDListener - After Find Element --->(1341, 362)
+22:08:44.268 INFO  manager.WDListener - Before click element --->inputtext
+22:08:44.402 INFO  manager.WDListener - After click element --->inputtext
+22:08:44.518 INFO  manager.WDListener - sendKeys --->inputtext
+22:08:44.587 INFO  manager.WDListener - sendKeys --->inputtext
+22:08:44.669 INFO  manager.WDListener - sendKeys --->inputtext
+22:08:47.670 INFO  tests.TestBase - TEST DATA  - - - >  User{firstName='null', lastName='null', email='﻿snow55@gmail.com', password='Ssnow12345$'}
+22:08:47.671 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+22:08:47.705 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+22:08:47.723 INFO  manager.WDListener - After Find Element --->(1341, 433)
+22:08:47.748 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+22:08:47.870 INFO  manager.WDListener - After click element --->buttontextY’alla!
+22:08:50.429 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+22:08:55.449 INFO  manager.WDListener - Huston, we have a problem!
+22:08:55.450 INFO  manager.WDListener - ********************
+22:08:55.450 INFO  manager.WDListener - Object target  ---> ChromeDriver: chrome on windows (62bec36cc1932dcd0b47f047be0cfd31)
+22:08:55.450 INFO  manager.WDListener - ********************
+22:08:55.450 INFO  manager.WDListener - Method name --->public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+22:08:55.451 INFO  manager.WDListener - ********************
+22:08:55.453 INFO  manager.WDListener - InvocationTargetException --->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container>h2"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62bec36cc1932dcd0b47f047be0cfd31, findElement {using=css selector, value=.dialog-container>h2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.55 (254bc711794d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50675}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50675/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62bec36cc1932dcd0b47f047be0cfd31
+22:08:55.454 INFO  manager.WDListener - ********************
+22:08:55.794 INFO  manager.WDListener - Screen with error is --->src/test/screenshots/screen_1864.png
+22:08:55.797 INFO  manager.TestNGListener - Fail testloginSuccessDPF
+22:09:00.833 INFO  tests.TestBase - ==================================================
+22:09:00.835 INFO  tests.TestBase - Name of Method --->loginSuccessDPF
+22:09:05.851 INFO  manager.TestNGListener - Start testloginSuccessDPF
+22:09:05.852 INFO  manager.WDListener - Before Find Element --->By.xpath: //a [text()=' Log in ']
+22:09:05.881 INFO  manager.WDListener - After Find Element --->By.xpath: //a [text()=' Log in ']
+22:09:05.900 INFO  manager.WDListener - After Find Element --->(1634, 24)
+22:09:05.927 INFO  manager.WDListener - Before click element --->atextLog in
+22:09:06.069 INFO  manager.WDListener - After click element --->atextLog in
+22:09:07.071 INFO  manager.WDListener - Before Find Element --->By.id: email
+22:09:07.098 INFO  manager.WDListener - After Find Element --->By.id: email
+22:09:07.118 INFO  manager.WDListener - After Find Element --->(1341, 266)
+22:09:07.143 INFO  manager.WDListener - Before click element --->inputtext
+22:09:07.257 INFO  manager.WDListener - After click element --->inputtext
+22:09:07.400 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:07.504 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:07.613 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:10.620 INFO  manager.WDListener - Before Find Element --->By.id: password
+22:09:10.645 INFO  manager.WDListener - After Find Element --->By.id: password
+22:09:10.664 INFO  manager.WDListener - After Find Element --->(1341, 343)
+22:09:10.688 INFO  manager.WDListener - Before click element --->inputtext
+22:09:10.817 INFO  manager.WDListener - After click element --->inputtext
+22:09:10.959 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:11.031 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:11.112 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:14.119 INFO  tests.TestBase - TEST DATA  - - - >  User{firstName='null', lastName='null', email='test12@gmail.com', password='vilevinQa!1234'}
+22:09:14.119 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+22:09:14.150 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+22:09:14.168 INFO  manager.WDListener - After Find Element --->(1341, 414)
+22:09:14.192 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+22:09:14.313 INFO  manager.WDListener - After click element --->buttontextY’alla!
+22:09:16.718 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+22:09:16.777 INFO  manager.WDListener - After Find Element --->By.cssSelector: .dialog-container>h2
+22:09:16.797 INFO  manager.WDListener - After Find Element --->(800, 442)
+22:09:16.815 INFO  tests.TestBase - Assert check alert message 'Logged in success'
+22:09:16.816 INFO  manager.TestNGListener - Success testloginSuccessDPF
+22:09:16.840 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text() = 'Ok']
+22:09:16.870 INFO  manager.WDListener - After Find Element --->By.xpath: //button[text() = 'Ok']
+22:09:16.889 INFO  manager.WDListener - After Find Element --->(986, 494)
+22:09:16.917 INFO  manager.WDListener - Before click element --->buttontextOk
+22:09:17.090 INFO  manager.WDListener - After click element --->buttontextOk
+22:09:17.090 INFO  tests.TestBase - ==================================================
+22:09:17.091 INFO  tests.TestBase - Name of Method --->loginSuccessDPF
+22:09:17.122 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[text()=' Logout ']
+22:09:17.154 INFO  manager.WDListener - After Find Element --->By.xpath: //*[text()=' Logout ']
+22:09:17.171 INFO  manager.WDListener - After Find Element --->(1446, 24)
+22:09:17.198 INFO  manager.WDListener - Before click element --->atextLogout
+22:09:17.347 INFO  tests.TestBase - Before method finish logout
+22:09:17.347 INFO  manager.TestNGListener - Start testloginSuccessDPF
+22:09:17.348 INFO  manager.WDListener - Before Find Element --->By.xpath: //a [text()=' Log in ']
+22:09:17.373 INFO  manager.WDListener - After Find Element --->By.xpath: //a [text()=' Log in ']
+22:09:17.391 INFO  manager.WDListener - After Find Element --->(1634, 24)
+22:09:17.417 INFO  manager.WDListener - Before click element --->atextLog in
+22:09:17.540 INFO  manager.WDListener - After click element --->atextLog in
+22:09:18.543 INFO  manager.WDListener - Before Find Element --->By.id: email
+22:09:23.610 INFO  manager.WDListener - Huston, we have a problem!
+22:09:23.611 INFO  manager.WDListener - ********************
+22:09:23.611 INFO  manager.WDListener - Object target  ---> ChromeDriver: chrome on windows (62bec36cc1932dcd0b47f047be0cfd31)
+22:09:23.611 INFO  manager.WDListener - ********************
+22:09:23.611 INFO  manager.WDListener - Method name --->public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+22:09:23.611 INFO  manager.WDListener - ********************
+22:09:23.611 INFO  manager.WDListener - InvocationTargetException --->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62bec36cc1932dcd0b47f047be0cfd31, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.55 (254bc711794d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50675}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50675/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62bec36cc1932dcd0b47f047be0cfd31
+22:09:23.612 INFO  manager.WDListener - ********************
+22:09:24.121 INFO  manager.WDListener - Screen with error is --->src/test/screenshots/screen_1005.png
+22:09:24.121 INFO  manager.TestNGListener - Fail testloginSuccessDPF
+22:09:29.191 INFO  tests.TestBase - ==================================================
+22:09:29.193 INFO  tests.TestBase - Name of Method --->loginSuccessDPF
+22:09:34.229 INFO  manager.TestNGListener - Start testloginSuccessDPF
+22:09:34.230 INFO  manager.WDListener - Before Find Element --->By.xpath: //a [text()=' Log in ']
+22:09:34.252 INFO  manager.WDListener - After Find Element --->By.xpath: //a [text()=' Log in ']
+22:09:34.269 INFO  manager.WDListener - After Find Element --->(1634, 24)
+22:09:34.292 INFO  manager.WDListener - Before click element --->atextLog in
+22:09:34.424 INFO  manager.WDListener - After click element --->atextLog in
+22:09:35.428 INFO  manager.WDListener - Before Find Element --->By.id: email
+22:09:35.453 INFO  manager.WDListener - After Find Element --->By.id: email
+22:09:35.470 INFO  manager.WDListener - After Find Element --->(1341, 266)
+22:09:35.495 INFO  manager.WDListener - Before click element --->inputtext
+22:09:35.621 INFO  manager.WDListener - After click element --->inputtext
+22:09:35.769 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:35.859 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:35.976 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:38.983 INFO  manager.WDListener - Before Find Element --->By.id: password
+22:09:39.009 INFO  manager.WDListener - After Find Element --->By.id: password
+22:09:39.026 INFO  manager.WDListener - After Find Element --->(1341, 343)
+22:09:39.049 INFO  manager.WDListener - Before click element --->inputtext
+22:09:39.164 INFO  manager.WDListener - After click element --->inputtext
+22:09:39.267 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:39.329 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:39.403 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:42.403 INFO  tests.TestBase - TEST DATA  - - - >  User{firstName='null', lastName='null', email='snow28662866@gmail.com', password='Ssnow12345$'}
+22:09:42.403 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+22:09:42.430 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+22:09:42.447 INFO  manager.WDListener - After Find Element --->(1341, 414)
+22:09:42.471 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+22:09:42.594 INFO  manager.WDListener - After click element --->buttontextY’alla!
+22:09:45.106 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+22:09:45.135 INFO  manager.WDListener - After Find Element --->By.cssSelector: .dialog-container>h2
+22:09:45.154 INFO  manager.WDListener - After Find Element --->(776, 441)
+22:09:45.169 INFO  tests.TestBase - Assert check alert message 'Logged in success'
+22:09:45.169 INFO  manager.TestNGListener - Success testloginSuccessDPF
+22:09:45.194 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text() = 'Ok']
+22:09:45.221 INFO  manager.WDListener - After Find Element --->By.xpath: //button[text() = 'Ok']
+22:09:45.236 INFO  manager.WDListener - After Find Element --->(986, 495)
+22:09:45.258 INFO  manager.WDListener - Before click element --->buttontextOk
+22:09:45.369 INFO  manager.WDListener - After click element --->buttontextOk
+22:09:45.370 INFO  tests.TestBase - ==================================================
+22:09:45.371 INFO  tests.TestBase - Name of Method --->loginSuccessDPF
+22:09:45.392 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[text()=' Logout ']
+22:09:45.418 INFO  manager.WDListener - After Find Element --->By.xpath: //*[text()=' Logout ']
+22:09:45.456 INFO  manager.WDListener - After Find Element --->(1446, 24)
+22:09:45.480 INFO  manager.WDListener - Before click element --->atextLogout
+22:09:45.618 INFO  tests.TestBase - Before method finish logout
+22:09:45.618 INFO  manager.TestNGListener - Start testloginSuccessDPF
+22:09:45.618 INFO  manager.WDListener - Before Find Element --->By.xpath: //a [text()=' Log in ']
+22:09:45.640 INFO  manager.WDListener - After Find Element --->By.xpath: //a [text()=' Log in ']
+22:09:45.659 INFO  manager.WDListener - After Find Element --->(1634, 24)
+22:09:45.685 INFO  manager.WDListener - Before click element --->atextLog in
+22:09:45.822 INFO  manager.WDListener - After click element --->atextLog in
+22:09:46.828 INFO  manager.WDListener - Before Find Element --->By.id: email
+22:09:46.851 INFO  manager.WDListener - After Find Element --->By.id: email
+22:09:46.871 INFO  manager.WDListener - After Find Element --->(1341, 266)
+22:09:46.894 INFO  manager.WDListener - Before click element --->inputtext
+22:09:47.054 INFO  manager.WDListener - After click element --->inputtext
+22:09:47.191 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:47.281 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:47.420 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:50.435 INFO  manager.WDListener - Before Find Element --->By.id: password
+22:09:50.459 INFO  manager.WDListener - After Find Element --->By.id: password
+22:09:50.478 INFO  manager.WDListener - After Find Element --->(1341, 343)
+22:09:50.502 INFO  manager.WDListener - Before click element --->inputtext
+22:09:50.616 INFO  manager.WDListener - After click element --->inputtext
+22:09:50.726 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:50.796 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:50.885 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:53.888 INFO  tests.TestBase - TEST DATA  - - - >  User{firstName='null', lastName='null', email='snow13011301@gmail.com', password='Ssnow12345$'}
+22:09:53.888 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+22:09:53.915 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+22:09:53.935 INFO  manager.WDListener - After Find Element --->(1341, 414)
+22:09:53.961 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+22:09:54.071 INFO  manager.WDListener - After click element --->buttontextY’alla!
+22:09:56.428 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+22:09:56.452 INFO  manager.WDListener - After Find Element --->By.cssSelector: .dialog-container>h2
+22:09:56.472 INFO  manager.WDListener - After Find Element --->(776, 441)
+22:09:56.486 INFO  tests.TestBase - Assert check alert message 'Logged in success'
+22:09:56.487 INFO  manager.TestNGListener - Success testloginSuccessDPF
+22:09:56.511 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text() = 'Ok']
+22:09:56.533 INFO  manager.WDListener - After Find Element --->By.xpath: //button[text() = 'Ok']
+22:09:56.551 INFO  manager.WDListener - After Find Element --->(986, 495)
+22:09:56.575 INFO  manager.WDListener - Before click element --->buttontextOk
+22:09:56.697 INFO  manager.WDListener - After click element --->buttontextOk
+22:09:56.698 INFO  tests.TestBase - ==================================================
+22:09:56.699 INFO  tests.TestBase - Name of Method --->loginSuccessDPF
+22:09:56.721 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[text()=' Logout ']
+22:09:56.742 INFO  manager.WDListener - After Find Element --->By.xpath: //*[text()=' Logout ']
+22:09:56.772 INFO  manager.WDListener - After Find Element --->(1446, 24)
+22:09:56.795 INFO  manager.WDListener - Before click element --->atextLogout
+22:09:56.934 INFO  tests.TestBase - Before method finish logout
+22:09:56.934 INFO  manager.TestNGListener - Start testloginSuccessDPF
+22:09:56.934 INFO  manager.WDListener - Before Find Element --->By.xpath: //a [text()=' Log in ']
+22:09:56.962 INFO  manager.WDListener - After Find Element --->By.xpath: //a [text()=' Log in ']
+22:09:56.978 INFO  manager.WDListener - After Find Element --->(1634, 24)
+22:09:57.001 INFO  manager.WDListener - Before click element --->atextLog in
+22:09:57.135 INFO  manager.WDListener - After click element --->atextLog in
+22:09:58.142 INFO  manager.WDListener - Before Find Element --->By.id: email
+22:09:58.162 INFO  manager.WDListener - After Find Element --->By.id: email
+22:09:58.178 INFO  manager.WDListener - After Find Element --->(1341, 266)
+22:09:58.203 INFO  manager.WDListener - Before click element --->inputtext
+22:09:58.376 INFO  manager.WDListener - After click element --->inputtext
+22:09:58.517 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:58.605 INFO  manager.WDListener - sendKeys --->inputtext
+22:09:58.775 INFO  manager.WDListener - sendKeys --->inputtext
+22:10:01.787 INFO  manager.WDListener - Before Find Element --->By.id: password
+22:10:01.809 INFO  manager.WDListener - After Find Element --->By.id: password
+22:10:01.827 INFO  manager.WDListener - After Find Element --->(1341, 343)
+22:10:01.852 INFO  manager.WDListener - Before click element --->inputtext
+22:10:01.982 INFO  manager.WDListener - After click element --->inputtext
+22:10:02.094 INFO  manager.WDListener - sendKeys --->inputtext
+22:10:02.169 INFO  manager.WDListener - sendKeys --->inputtext
+22:10:02.259 INFO  manager.WDListener - sendKeys --->inputtext
+22:10:05.274 INFO  tests.TestBase - TEST DATA  - - - >  User{firstName='null', lastName='null', email='snow29622962@gmail.com', password='Ssnow12345$'}
+22:10:05.274 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+22:10:05.301 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+22:10:05.321 INFO  manager.WDListener - After Find Element --->(1341, 414)
+22:10:05.347 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+22:10:05.462 INFO  manager.WDListener - After click element --->buttontextY’alla!
+22:10:07.794 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+22:10:07.817 INFO  manager.WDListener - After Find Element --->By.cssSelector: .dialog-container>h2
+22:10:07.836 INFO  manager.WDListener - After Find Element --->(776, 441)
+22:10:07.851 INFO  tests.TestBase - Assert check alert message 'Logged in success'
+22:10:07.851 INFO  manager.TestNGListener - Success testloginSuccessDPF
+22:10:07.872 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text() = 'Ok']
+22:10:07.892 INFO  manager.WDListener - After Find Element --->By.xpath: //button[text() = 'Ok']
+22:10:07.909 INFO  manager.WDListener - After Find Element --->(986, 495)
+22:10:07.934 INFO  manager.WDListener - Before click element --->buttontextOk
+22:10:08.051 INFO  manager.WDListener - After click element --->buttontextOk
+22:10:08.052 INFO  tests.TestBase - ==================================================
+22:10:08.054 INFO  manager.TestNGListener - Finish testing on date ---> Sat Jun 07 22:10:08 IDT 2025

@@ -1,0 +1,5 @@
+21:55:12.496 INFO  manager.ApplicationManager - All tests runs in Chrome Browser
+21:55:15.425 INFO  manager.ApplicationManager - The link is --->https://ilcarro.web.app/search
+21:55:15.437 INFO  manager.TestNGListener - Start testing on date ---> Sat Jun 07 21:55:15 IDT 2025
+21:55:15.460 INFO  manager.TestNGListener - Fail testloginSuccessDPF
+21:55:15.466 INFO  manager.TestNGListener - Finish testing on date ---> Sat Jun 07 21:55:15 IDT 2025

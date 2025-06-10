@@ -23,7 +23,7 @@ public class DataProviderCar {
         BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/car.csv")));
         String line = reader.readLine();
         while (line != null) {
-            String[] all = line.split(",");
+            String[] all = line.split("/");
             list.add(new Object[]{Car.builder()
                     .location(all[0])
                     .manufactura(all[1])

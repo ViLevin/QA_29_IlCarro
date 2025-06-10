@@ -1,0 +1,67 @@
+19:51:21.323 INFO  manager.ApplicationManager - All tests runs in Chrome Browser
+19:51:24.704 INFO  manager.ApplicationManager - The link is --->https://ilcarro.web.app/search
+19:51:24.717 INFO  manager.TestNGListener - Start testing on date ---> Sat Jun 07 19:51:24 IDT 2025
+19:51:24.742 INFO  tests.TestBase - Name of Method --->registrationSuccess
+19:51:29.803 INFO  manager.TestNGListener - Start testregistrationSuccess
+19:51:29.804 INFO  tests.TestBase - Start
+19:51:29.810 INFO  manager.WDListener - Before Find Element --->By.xpath: //a[text()=' Sign up ']
+19:51:29.862 INFO  manager.WDListener - After Find Element --->By.xpath: //a[text()=' Sign up ']
+19:51:29.889 INFO  manager.WDListener - After Find Element --->(1513, 24)
+19:51:29.927 INFO  manager.WDListener - Before click element --->atextSign up
+19:51:30.091 INFO  manager.WDListener - After click element --->atextSign up
+19:51:30.092 INFO  manager.WDListener - Before Find Element --->By.id: name
+19:51:30.137 INFO  manager.WDListener - After Find Element --->By.id: name
+19:51:30.158 INFO  manager.WDListener - After Find Element --->(1341, 266)
+19:51:30.184 INFO  manager.WDListener - Before click element --->inputtext
+19:51:30.349 INFO  manager.WDListener - After click element --->inputtext
+19:51:30.510 INFO  manager.WDListener - sendKeys --->inputtext
+19:51:30.592 INFO  manager.WDListener - sendKeys --->inputtext
+19:51:30.671 INFO  manager.WDListener - sendKeys --->inputtext
+19:51:30.672 INFO  manager.WDListener - Before Find Element --->By.id: lastName
+19:51:30.724 INFO  manager.WDListener - After Find Element --->By.id: lastName
+19:51:30.743 INFO  manager.WDListener - After Find Element --->(1341, 343)
+19:51:30.769 INFO  manager.WDListener - Before click element --->inputtext
+19:51:30.910 INFO  manager.WDListener - After click element --->inputtext
+19:51:31.032 INFO  manager.WDListener - sendKeys --->inputtext
+19:51:31.113 INFO  manager.WDListener - sendKeys --->inputtext
+19:51:31.194 INFO  manager.WDListener - sendKeys --->inputtext
+19:51:31.195 INFO  manager.WDListener - Before Find Element --->By.id: email
+19:51:31.232 INFO  manager.WDListener - After Find Element --->By.id: email
+19:51:31.250 INFO  manager.WDListener - After Find Element --->(1341, 419)
+19:51:31.279 INFO  manager.WDListener - Before click element --->inputtext
+19:51:31.411 INFO  manager.WDListener - After click element --->inputtext
+19:51:31.584 INFO  manager.WDListener - sendKeys --->inputtext
+19:51:31.692 INFO  manager.WDListener - sendKeys --->inputtext
+19:51:31.810 INFO  manager.WDListener - sendKeys --->inputtext
+19:51:31.811 INFO  manager.WDListener - Before Find Element --->By.id: password
+19:51:31.843 INFO  manager.WDListener - After Find Element --->By.id: password
+19:51:31.861 INFO  manager.WDListener - After Find Element --->(1341, 496)
+19:51:31.888 INFO  manager.WDListener - Before click element --->inputtext
+19:51:32.012 INFO  manager.WDListener - After click element --->inputtext
+19:51:32.134 INFO  manager.WDListener - sendKeys --->inputtext
+19:51:32.217 INFO  manager.WDListener - sendKeys --->inputtext
+19:51:32.330 INFO  manager.WDListener - sendKeys --->inputtext
+19:51:32.339 INFO  tests.TestBase - TEST DATA: -->User{firstName='Lisa', lastName='Snow', email='snow55@gmail.com', password='Ssnow12345$'}
+19:51:32.340 INFO  manager.WDListener - Before Find Element --->By.id: terms-of-use
+19:51:32.377 INFO  manager.WDListener - After Find Element --->By.id: terms-of-use
+19:51:32.400 INFO  manager.WDListener - After Find Element --->(1345, 563)
+19:51:32.423 INFO  manager.WDListener - Before Find Element --->By.cssSelector: label[for='terms-of-use']
+19:51:32.458 INFO  manager.WDListener - After Find Element --->By.cssSelector: label[for='terms-of-use']
+19:51:32.481 INFO  manager.WDListener - After Find Element --->(1341, 560)
+19:51:33.069 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+19:51:33.103 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+19:51:33.124 INFO  manager.WDListener - After Find Element --->(1341, 604)
+19:51:33.153 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+19:51:33.311 INFO  manager.WDListener - After click element --->buttontextY’alla!
+19:51:35.317 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+19:51:35.353 INFO  manager.WDListener - After Find Element --->By.cssSelector: .dialog-container>h2
+19:51:35.373 INFO  manager.WDListener - After Find Element --->(776, 441)
+19:51:35.393 INFO  tests.TestBase - End
+19:51:35.395 INFO  manager.TestNGListener - Success testregistrationSuccess
+19:51:35.429 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text() = 'Ok']
+19:51:35.461 INFO  manager.WDListener - After Find Element --->By.xpath: //button[text() = 'Ok']
+19:51:35.485 INFO  manager.WDListener - After Find Element --->(986, 495)
+19:51:35.512 INFO  manager.WDListener - Before click element --->buttontextOk
+19:51:35.646 INFO  manager.WDListener - After click element --->buttontextOk
+19:51:35.647 INFO  tests.TestBase - ==================================================
+19:51:35.650 INFO  manager.TestNGListener - Finish testing on date ---> Sat Jun 07 19:51:35 IDT 2025

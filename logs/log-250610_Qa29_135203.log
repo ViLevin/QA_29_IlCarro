@@ -1,0 +1,151 @@
+13:52:08.203 INFO  manager.ApplicationManager - All tests runs in Chrome Browser
+13:52:10.228 INFO  manager.ApplicationManager - The link is --->https://ilcarro.web.app/search
+13:52:10.246 INFO  manager.TestNGListener - Start testing on date ---> Tue Jun 10 13:52:10 IDT 2025
+13:52:15.336 INFO  manager.WDListener - Before Find Element --->By.xpath: //a [text()=' Log in ']
+13:52:15.368 INFO  manager.WDListener - After Find Element --->By.xpath: //a [text()=' Log in ']
+13:52:15.399 INFO  manager.WDListener - After Find Element --->(1634, 24)
+13:52:15.431 INFO  manager.WDListener - Before click element --->atextLog in
+13:52:15.599 INFO  manager.WDListener - After click element --->atextLog in
+13:52:16.602 INFO  manager.WDListener - Before Find Element --->By.id: email
+13:52:16.634 INFO  manager.WDListener - After Find Element --->By.id: email
+13:52:16.665 INFO  manager.WDListener - After Find Element --->(1341, 266)
+13:52:16.680 INFO  manager.WDListener - Before click element --->inputtext
+13:52:16.861 INFO  manager.WDListener - After click element --->inputtext
+13:52:17.044 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:17.154 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:17.279 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:20.288 INFO  manager.WDListener - Before Find Element --->By.id: password
+13:52:20.319 INFO  manager.WDListener - After Find Element --->By.id: password
+13:52:20.335 INFO  manager.WDListener - After Find Element --->(1341, 343)
+13:52:20.366 INFO  manager.WDListener - Before click element --->inputtext
+13:52:20.496 INFO  manager.WDListener - After click element --->inputtext
+13:52:20.628 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:20.696 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:20.795 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:23.805 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+13:52:23.836 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+13:52:23.851 INFO  manager.WDListener - After Find Element --->(1341, 414)
+13:52:23.883 INFO  manager.WDListener - Before click element --->buttontextY’alla!
+13:52:24.026 INFO  manager.WDListener - After click element --->buttontextY’alla!
+13:52:25.060 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text() = 'Ok']
+13:52:25.091 INFO  manager.WDListener - After Find Element --->By.xpath: //button[text() = 'Ok']
+13:52:25.107 INFO  manager.WDListener - After Find Element --->(984, 492)
+13:52:25.138 INFO  manager.WDListener - Before click element --->buttontextOk
+13:52:25.261 INFO  manager.WDListener - After click element --->buttontextOk
+13:52:25.295 INFO  tests.TestBase - Name of Method --->addNewCarWrongPriceCSV
+13:52:25.295 INFO  manager.TestNGListener - Start testaddNewCarWrongPriceCSV
+13:52:25.311 INFO  tests.TestBase - Start
+13:52:30.326 INFO  manager.WDListener - Before Find Element --->By.xpath: //a[@href='/let-car-work']
+13:52:30.358 INFO  manager.WDListener - After Find Element --->By.xpath: //a[@href='/let-car-work']
+13:52:30.373 INFO  manager.WDListener - After Find Element --->(1100, 24)
+13:52:30.389 INFO  manager.WDListener - Before click element --->atextLet the car work
+13:52:30.558 INFO  manager.WDListener - After click element --->atextLet the car work
+13:52:31.227 INFO  manager.WDListener - Before Find Element --->By.id: pickUpPlace
+13:52:31.262 INFO  manager.WDListener - After Find Element --->By.id: pickUpPlace
+13:52:31.284 INFO  manager.WDListener - After Find Element --->(172, 360)
+13:52:31.309 INFO  manager.WDListener - Before click element --->inputtext
+13:52:31.444 INFO  manager.WDListener - After click element --->inputtext
+13:52:31.552 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:31.619 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:31.719 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:34.723 INFO  manager.WDListener - Before Find Element --->By.cssSelector: div.pac-item
+13:52:34.754 INFO  manager.WDListener - After Find Element --->By.cssSelector: div.pac-item
+13:52:34.770 INFO  manager.WDListener - After Find Element --->(173, 408)
+13:52:34.785 INFO  manager.WDListener - Before click element --->divtextTel AvivIsrael
+13:52:34.920 INFO  manager.WDListener - Before Find Element --->By.id: make
+13:52:34.945 INFO  manager.WDListener - After Find Element --->By.id: make
+13:52:34.960 INFO  manager.WDListener - After Find Element --->(172, 553)
+13:52:34.992 INFO  manager.WDListener - Before click element --->inputtext
+13:52:35.144 INFO  manager.WDListener - After click element --->inputtext
+13:52:35.295 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:35.378 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:35.471 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:35.472 INFO  manager.WDListener - Before Find Element --->By.id: model
+13:52:35.495 INFO  manager.WDListener - After Find Element --->By.id: model
+13:52:35.510 INFO  manager.WDListener - After Find Element --->(172, 636)
+13:52:35.542 INFO  manager.WDListener - Before click element --->inputtext
+13:52:35.696 INFO  manager.WDListener - After click element --->inputtext
+13:52:35.813 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:35.879 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:35.963 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:35.963 INFO  manager.WDListener - Before Find Element --->By.id: year
+13:52:36.005 INFO  manager.WDListener - After Find Element --->By.id: year
+13:52:36.012 INFO  manager.WDListener - After Find Element --->(172, 713)
+13:52:36.043 INFO  manager.WDListener - Before click element --->inputtext
+13:52:36.165 INFO  manager.WDListener - After click element --->inputtext
+13:52:36.296 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:36.379 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:36.501 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:36.503 INFO  manager.WDListener - Before Find Element --->By.id: fuel
+13:52:36.528 INFO  manager.WDListener - After Find Element --->By.id: fuel
+13:52:36.559 INFO  manager.WDListener - After Find Element --->(172, 789)
+13:52:36.700 INFO  manager.WDListener - Before click element --->optiontextPetrol
+13:52:36.779 INFO  manager.WDListener - After click element --->optiontextPetrol
+13:52:36.779 INFO  manager.WDListener - Before Find Element --->By.id: seats
+13:52:36.816 INFO  manager.WDListener - After Find Element --->By.id: seats
+13:52:36.847 INFO  manager.WDListener - After Find Element --->(172, 868)
+13:52:36.878 INFO  manager.WDListener - Before click element --->inputtext
+13:52:37.046 INFO  manager.WDListener - After click element --->inputtext
+13:52:37.229 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:37.348 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:37.454 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:37.454 INFO  manager.WDListener - Before Find Element --->By.id: class
+13:52:37.477 INFO  manager.WDListener - After Find Element --->By.id: class
+13:52:37.493 INFO  manager.WDListener - After Find Element --->(172, 944)
+13:52:37.524 INFO  manager.WDListener - Before click element --->inputtext
+13:52:37.676 INFO  manager.WDListener - After click element --->inputtext
+13:52:37.787 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:37.878 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:37.945 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:37.945 INFO  manager.WDListener - Before Find Element --->By.id: serialNumber
+13:52:37.988 INFO  manager.WDListener - After Find Element --->By.id: serialNumber
+13:52:38.007 INFO  manager.WDListener - After Find Element --->(172, 1021)
+13:52:38.027 INFO  manager.WDListener - Before click element --->inputtext
+13:52:38.161 INFO  manager.WDListener - After click element --->inputtext
+13:52:38.295 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:38.361 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:38.478 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:38.478 INFO  manager.WDListener - Before Find Element --->By.id: price
+13:52:38.525 INFO  manager.WDListener - After Find Element --->By.id: price
+13:52:38.543 INFO  manager.WDListener - After Find Element --->(172, 1097)
+13:52:38.578 INFO  manager.WDListener - Before click element --->inputtext
+13:52:38.747 INFO  manager.WDListener - After click element --->inputtext
+13:52:38.951 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:39.061 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:39.198 INFO  manager.WDListener - sendKeys --->inputtext
+13:52:39.198 INFO  manager.WDListener - Before Find Element --->By.id: about
+13:52:39.228 INFO  manager.WDListener - After Find Element --->By.id: about
+13:52:39.244 INFO  manager.WDListener - After Find Element --->(172, 1215)
+13:52:39.275 INFO  manager.WDListener - Before click element --->textareatext
+13:52:39.449 INFO  manager.WDListener - After click element --->textareatext
+13:52:39.572 INFO  manager.WDListener - sendKeys --->textareatext
+13:52:39.652 INFO  manager.WDListener - sendKeys --->textareatext
+13:52:39.756 INFO  manager.WDListener - sendKeys --->textareatext
+13:52:39.927 INFO  manager.WDListener - Before Find Element --->By.xpath: //*[@type='submit']
+13:52:39.945 INFO  manager.WDListener - After Find Element --->By.xpath: //*[@type='submit']
+13:52:39.960 INFO  manager.WDListener - After Find Element --->(172, 1607)
+13:52:39.992 INFO  manager.WDListener - Before click element --->buttontextSubmit
+13:52:40.144 INFO  manager.WDListener - After click element --->buttontextSubmit
+13:52:43.152 INFO  manager.WDListener - Before Find Element --->By.cssSelector: .dialog-container>h2
+13:52:43.168 INFO  manager.WDListener - After Find Element --->By.cssSelector: .dialog-container>h2
+13:52:43.199 INFO  manager.WDListener - After Find Element --->(776, 430)
+13:52:43.215 INFO  manager.TestNGListener - Fail testaddNewCarWrongPriceCSV
+13:52:43.215 INFO  manager.WDListener - Before Find Element --->By.xpath: //button[text()='Search cars']
+13:52:48.255 INFO  manager.WDListener - Huston, we have a problem!
+13:52:48.255 INFO  manager.WDListener - ********************
+13:52:48.255 INFO  manager.WDListener - Object target  ---> ChromeDriver: chrome on windows (353c623a02765facece4e6531bf55c91)
+13:52:48.255 INFO  manager.WDListener - ********************
+13:52:48.255 INFO  manager.WDListener - Method name --->public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+13:52:48.255 INFO  manager.WDListener - ********************
+13:52:48.255 INFO  manager.WDListener - InvocationTargetException --->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=137.0.7151.69)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [353c623a02765facece4e6531bf55c91, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.55 (254bc711794d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55824}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55824/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 353c623a02765facece4e6531bf55c91
+13:52:48.255 INFO  manager.WDListener - ********************
+13:52:48.407 INFO  manager.WDListener - Screen with error is --->src/test/screenshots/screen_1737.png
+13:52:48.414 INFO  manager.TestNGListener - Finish testing on date ---> Tue Jun 10 13:52:48 IDT 2025
